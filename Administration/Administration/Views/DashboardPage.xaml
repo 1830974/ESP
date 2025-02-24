@@ -1,0 +1,74 @@
+﻿<Page x:Class="Administration.Views.DashboardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Administration.Views"
+      xmlns:vm="clr-namespace:Administration.ViewModels"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="DashboardPage">
+
+    <Grid Margin="16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <GroupBox Header="État du stationnement" Grid.Row="0" Margin="0 0 8 4" BorderBrush="#1976D2" Foreground="#1976D2">
+                <lvc:PieChart Series="{Binding PieSeriesCollection}"
+                      DataClickCommand="{Binding PieChartClickCommand}"
+                      LegendLocation="Bottom"
+                      Hoverable="True"
+                      Margin="0">
+                    <lvc:PieChart.DataTooltip>
+                        <lvc:DefaultTooltip SelectionMode="OnlySender" />
+                    </lvc:PieChart.DataTooltip>
+                </lvc:PieChart>
+            </GroupBox>
+
+            <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Center" Background="#E3F2FD"/>
+
+            <GroupBox Header="Résumé" Grid.Row="2" Margin="0 4 8 0" BorderBrush="#1976D2" Foreground="#1976D2">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="10">
+                        <TextBlock Text="Résumé du graphique circulaire:" Margin="0 0 0 16" FontWeight="Bold" FontSize="20"/>
+                        <ItemsControl ItemsSource="{Binding PieChartDataItems}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Margin="0 0 0 8" FontSize="18">
+                                        <Run Text="{Binding Title}" FontWeight="SemiBold"/>
+                                        <Run Text=": "/>
+                                        <Run Text="{Binding Value, StringFormat=' {0:F0}'}" FontWeight="Bold"/>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        <TextBlock Text="Total des revenus:" Margin="0 16 0 8" FontWeight="Bold" FontSize="20"/>
+                        <TextBlock Text="{Binding TotalRevenue, StringFormat=' {0:C2}'}" FontWeight="Bold" FontSize="22"/>
+                    </StackPanel>
+                </ScrollViewer>
+            </GroupBox>
+
+        </Grid>
+
+        <GroupBox Header="Tendance des revenus (7 derniers jours)" Grid.Column="1" Margin="8 0 0 0" BorderBrush="#1976D2" Foreground="#1976D2">
+            <lvc:CartesianChart Series="{Binding CartesianSeriesCollection}" LegendLocation="Bottom">
+                <lvc:CartesianChart.AxisX>
+                    <lvc:Axis Title="Jour" Labels="{Binding CartesianLabels}" Foreground="#1976D2"/>
+                </lvc:CartesianChart.AxisX>
+                <lvc:CartesianChart.AxisY>
+                    <lvc:Axis Title="Revenus" LabelFormatter="{Binding Formatter}" Foreground="#1976D2"/>
+                </lvc:CartesianChart.AxisY>
+            </lvc:CartesianChart>
+        </GroupBox>
+    </Grid>
+</Page>

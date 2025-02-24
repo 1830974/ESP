@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API_CIUSSS_1830974</name>
+    </assembly>
+    <members>
+        <member name="M:API_CIUSSS_1830974.Controllers.LogsController.GetActivityLogs(System.String,System.DateTime,System.DateTime)">
+            <summary>
+            Type de log valid : entry, exit, prices, usercreate, userupdate, 
+            userdelete, ticketdelete, payment
+            </summary>
+            <param name="logType"></param>
+            <param name="start"></param>
+            <param name="end"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

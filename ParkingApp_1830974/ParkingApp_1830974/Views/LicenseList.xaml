@@ -1,0 +1,46 @@
+﻿<Page x:Class="ParkingApp_1830974.Views.LicenseList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d"
+      Background="#E3F2FD"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LicenseList">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="SearchBar"
+                 Grid.Row="0"
+                 materialDesign:HintAssist.Hint="Rechercher une plaque d'immatriculation..."
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 Margin="0,0,0,10"
+                 Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+
+        <ListView x:Name="LicensePlateList"
+                  Grid.Row="1"
+                  ItemsSource="{Binding FilteredLicensePlates}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <materialDesign:Card Width="200" Margin="5">
+                        <StackPanel>
+                            <TextBlock Text="{Binding LicensePlate}" FontWeight="Bold" HorizontalAlignment="Center" Margin="5"/>
+                            <TextBlock Text="{Binding ArrivalTime, StringFormat=dd/MM/yyyy HH:mm}" HorizontalAlignment="Center" Margin="5"/>
+                        </StackPanel>
+                    </materialDesign:Card>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>

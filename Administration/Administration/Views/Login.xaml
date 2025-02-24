@@ -1,0 +1,81 @@
+﻿<Window x:Class="Administration.Views.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ressources="clr-namespace:Administration.Ressources"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Administration"
+        xmlns:viewmodels="clr-namespace:Administration.ViewModels"
+        d:DataContext="{d:DesignInstance Type=viewmodels:LoginVM}"
+        mc:Ignorable="d"
+        Title="Connexion" Height="450" Width="400"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Window.InputBindings>
+        <KeyBinding Key="Return" Command="{Binding LoginCommand}" />
+    </Window.InputBindings>
+
+    <Grid>
+        <materialDesign:Card Padding="32" Margin="16">
+            <StackPanel>
+                <TextBlock Text="Connexion"
+                           FontSize="24"
+                           HorizontalAlignment="Center"
+                           Margin="0 0 0 32"/>
+
+                <TextBlock x:Name="ErrorMessageTextBlock"
+                           Foreground="Red"
+                           Text="{Binding ErrorMessage, UpdateSourceTrigger=PropertyChanged}"
+                           Visibility="{Binding ErrorMessageVisibility}"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"/>
+
+                <TextBox Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                         materialDesign:HintAssist.Hint="Nom d'utilisateur"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         Margin="0 16 0 0"/>
+
+                <Grid Margin="0 25 0 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <PasswordBox x:Name="passwordBox"
+                                 Grid.Column="0"
+                                 ressources:PasswordHelper.BoundPassword="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                 materialDesign:HintAssist.Hint="Mot de passe"
+                                 Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                                 Visibility="{Binding PasswordBoxVisibility}"/>
+
+                    <TextBox x:Name="passwordTextBox"
+                             Grid.Column="0"
+                             Text="{Binding Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                             materialDesign:HintAssist.Hint="Mot de passe"
+                             Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                             Visibility="{Binding PasswordTextBoxVisibility}"/>
+
+                    <Button x:Name="togglePasswordButton"
+                            Grid.Column="1"
+                            Command="{Binding TogglePasswordVisibilityCommand}"
+                            Style="{StaticResource MaterialDesignIconButton}"
+                            Margin="8 0 0 0"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Bottom">
+                        <materialDesign:PackIcon Kind="{Binding PasswordVisibilityIcon}" />
+                    </Button>
+                </Grid>
+
+                <Button x:Name="loginButton"
+                        Content="SE CONNECTER"
+                        Command="{Binding LoginCommand}"
+                        Style="{StaticResource MaterialDesignRaisedButton}"
+                        Margin="0 32 0 0"
+                        Height="40"
+                        Cursor="Hand"/>
+            </StackPanel>
+        </materialDesign:Card>
+    </Grid>
+</Window>
