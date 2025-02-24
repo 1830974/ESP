@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_CIUSSS_1830974")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aea0a6a57ac4f0b6faf8da85d9c647567f274979")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+838144659fdb71b8264fb28289659ff510240408")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_CIUSSS_1830974")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_CIUSSS_1830974")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

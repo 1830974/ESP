@@ -1,82 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\",
+  "WorkspaceRootPath": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\api_ciusss_1830974\\api_ciusss_1830974\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\models\\dto\\licenseplatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\dto\\licenseplatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\data\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\data\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\models\\dto\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\dto\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\recieptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\recieptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\recieptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\pricescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\pricescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\models\\prices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\prices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\models\\parking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\parking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\models\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\cchic\\esp\\livrable3_1830974\\api_ciusss_1830974\\api_ciusss_1830974\\migrations\\20250223024641_firstname instead of name in user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\migrations\\20250223024641_firstname instead of name in user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\api_ciusss_1830974\\api_ciusss_1830974\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,92 +34,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 256,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApiKeyMiddleware.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Data\\ApiKeyMiddleware.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Data\\ApiKeyMiddleware.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Data\\ApiKeyMiddleware.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Data\\ApiKeyMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T21:59:32.38Z"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.json",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\appsettings.json",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.json",
-              "RelativeToolTip": "API_CIUSSS_1830974\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T21:58:16.579Z",
+              "Title": "Reciept.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Reciept.cs",
+              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\Reciept.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Reciept.cs",
+              "RelativeToolTip": "API_CIUSSS_1830974\\Models\\Reciept.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T14:10:06.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Program.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Program.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Program.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:26:11.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAcwC4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T18:15:47.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PricesController.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\PricesController.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\PricesController.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\PricesController.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\PricesController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAQwGwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T17:37:14.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TicketController.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\TicketController.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\TicketController.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\TicketController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T02:32:32.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "LogsController.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\LogsController.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\LogsController.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\LogsController.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\LogsController.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\LogsController.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\LogsController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAwwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,154 +79,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ParkingController.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCYAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T17:54:45.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "RecieptController.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T18:06:37.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.Development.json",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\appsettings.Development.json",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.Development.json",
               "RelativeToolTip": "API_CIUSSS_1830974\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-02-18T21:58:15.482Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 144,
-          "SelectedChildIndex": 4,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Prices.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Prices.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\Prices.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Prices.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Models\\Prices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T17:40:15.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Parking.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Parking.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\Parking.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Parking.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Models\\Parking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T17:52:31.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Reciept.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Reciept.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\Reciept.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Reciept.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Models\\Reciept.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T18:13:58.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TicketDTO.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\DTO\\TicketDTO.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\DTO\\TicketDTO.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\DTO\\TicketDTO.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Models\\DTO\\TicketDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T18:28:28.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\User.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\User.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\User.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T17:52:45.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\Ticket.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Ticket.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:44:47.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Logs.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Logs.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\Logs.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Logs.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Models\\Logs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T02:40:59.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250223024641_FirstName instead of name in User.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Migrations\\20250223024641_FirstName instead of name in User.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Migrations\\20250223024641_FirstName instead of name in User.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Migrations\\20250223024641_FirstName instead of name in User.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Migrations\\20250223024641_FirstName instead of name in User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:46:41.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LicensePlateDTO.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\DTO\\LicensePlateDTO.cs",
-              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\DTO\\LicensePlateDTO.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\DTO\\LicensePlateDTO.cs",
-              "RelativeToolTip": "API_CIUSSS_1830974\\Models\\DTO\\LicensePlateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T18:28:41.977Z"
             }
           ]
         }

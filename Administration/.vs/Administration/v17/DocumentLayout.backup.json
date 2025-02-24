@@ -1,90 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\",
+  "WorkspaceRootPath": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\viewmodels\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\models\\othervalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\othervalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\models\\parking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\parking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\models\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\models\\dto\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\dto\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\models\\dto\\licenseplatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\dto\\licenseplatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\models\\piechardataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\piechardataitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\models\\prices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\prices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\data\\context\\ciussscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\data\\context\\ciussscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\livrable3_1830974\\administration\\administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\data\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\data\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\administration\\administration\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,277 +66,176 @@
       "DocumentGroups": [
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Administration\\Models\\User.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\User.cs",
-              "RelativeToolTip": "Administration\\Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Reciept.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Models\\Reciept.cs",
+              "RelativeDocumentMoniker": "Administration\\Models\\Reciept.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Models\\Reciept.cs",
+              "RelativeToolTip": "Administration\\Models\\Reciept.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:44:35.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T14:39:05.095Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\App.xaml",
-              "RelativeDocumentMoniker": "Administration\\App.xaml",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\App.xaml",
-              "RelativeToolTip": "Administration\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-23T02:44:13.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeVM.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\ViewModels\\HomeVM.cs",
-              "RelativeDocumentMoniker": "Administration\\ViewModels\\HomeVM.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\ViewModels\\HomeVM.cs",
-              "RelativeToolTip": "Administration\\ViewModels\\HomeVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Title": "CreateUserVM.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\CreateUserVM.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\CreateUserVM.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:41:51.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T14:35:24.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "Administration\\Views\\Login.xaml.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\Login.xaml.cs",
-              "RelativeToolTip": "Administration\\Views\\Login.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DashboardVM.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\ViewModels\\DashboardVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\DashboardVM.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\ViewModels\\DashboardVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\DashboardVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:41:01.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\Login.xaml",
-              "RelativeDocumentMoniker": "Administration\\Views\\Login.xaml",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\Login.xaml",
-              "RelativeToolTip": "Administration\\Views\\Login.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-23T02:40:32.357Z",
+              "WhenOpened": "2025-02-24T13:34:30.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\ViewModels\\LoginVM.cs",
-              "RelativeDocumentMoniker": "Administration\\ViewModels\\LoginVM.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\ViewModels\\LoginVM.cs",
-              "RelativeToolTip": "Administration\\ViewModels\\LoginVM.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAApwDoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:38:51.38Z",
-              "EditorCaption": ""
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "Administration\\Views\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\DashboardPage.xaml",
+              "RelativeToolTip": "Administration\\Views\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T14:34:31.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TicketDTO.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\DTO\\TicketDTO.cs",
-              "RelativeDocumentMoniker": "Administration\\Models\\DTO\\TicketDTO.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\DTO\\TicketDTO.cs",
-              "RelativeToolTip": "Administration\\Models\\DTO\\TicketDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:36:06.008Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "ManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\ManagementPage.xaml",
+              "RelativeDocumentMoniker": "Administration\\Views\\ManagementPage.xaml",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\ManagementPage.xaml",
+              "RelativeToolTip": "Administration\\Views\\ManagementPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T14:34:10.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Logs.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\Logs.cs",
-              "RelativeDocumentMoniker": "Administration\\Models\\Logs.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\Logs.cs",
-              "RelativeToolTip": "Administration\\Models\\Logs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:36:03Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "ReportPage.xaml",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\ReportPage.xaml",
+              "RelativeDocumentMoniker": "Administration\\Views\\ReportPage.xaml",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\ReportPage.xaml",
+              "RelativeToolTip": "Administration\\Views\\ReportPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T14:33:52.859Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "OtherValues.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\OtherValues.cs",
-              "RelativeDocumentMoniker": "Administration\\Models\\OtherValues.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\OtherValues.cs",
-              "RelativeToolTip": "Administration\\Models\\OtherValues.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:35:59.95Z",
-              "EditorCaption": ""
+              "Title": "CreateUser.xaml",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\CreateUser.xaml",
+              "RelativeDocumentMoniker": "Administration\\Views\\CreateUser.xaml",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\CreateUser.xaml",
+              "RelativeToolTip": "Administration\\Views\\CreateUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T14:33:42.485Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Parking.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\Parking.cs",
-              "RelativeDocumentMoniker": "Administration\\Models\\Parking.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\Parking.cs",
-              "RelativeToolTip": "Administration\\Models\\Parking.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\appsettings.json",
+              "RelativeDocumentMoniker": "Administration\\appsettings.json",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\appsettings.json",
+              "RelativeToolTip": "Administration\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-24T14:31:06.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiHelper.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Data\\ApiHelper.cs",
+              "RelativeDocumentMoniker": "Administration\\Data\\ApiHelper.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Data\\ApiHelper.cs",
+              "RelativeToolTip": "Administration\\Data\\ApiHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:35:57.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Prices.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\Prices.cs",
-              "RelativeDocumentMoniker": "Administration\\Models\\Prices.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\Prices.cs",
-              "RelativeToolTip": "Administration\\Models\\Prices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:35:53.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Reciept.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\Reciept.cs",
-              "RelativeDocumentMoniker": "Administration\\Models\\Reciept.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\Reciept.cs",
-              "RelativeToolTip": "Administration\\Models\\Reciept.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:35:50.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LicensePlateDTO.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\DTO\\LicensePlateDTO.cs",
-              "RelativeDocumentMoniker": "Administration\\Models\\DTO\\LicensePlateDTO.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\DTO\\LicensePlateDTO.cs",
-              "RelativeToolTip": "Administration\\Models\\DTO\\LicensePlateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:35:42.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CiusssContext.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Data\\Context\\CiusssContext.cs",
-              "RelativeDocumentMoniker": "Administration\\Data\\Context\\CiusssContext.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Data\\Context\\CiusssContext.cs",
-              "RelativeToolTip": "Administration\\Data\\Context\\CiusssContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:31:56.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PieCharDataItem.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\PieCharDataItem.cs",
-              "RelativeDocumentMoniker": "Administration\\Models\\PieCharDataItem.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Models\\PieCharDataItem.cs",
-              "RelativeToolTip": "Administration\\Models\\PieCharDataItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:31:52.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Administration\\App.xaml.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\App.xaml.cs",
-              "RelativeToolTip": "Administration\\App.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwBsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T02:31:06.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ReportPage.xaml",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\ReportPage.xaml",
-              "RelativeDocumentMoniker": "Administration\\Views\\ReportPage.xaml",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\ReportPage.xaml",
-              "RelativeToolTip": "Administration\\Views\\ReportPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-23T02:29:40.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ManagementPage.xaml",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\ManagementPage.xaml",
-              "RelativeDocumentMoniker": "Administration\\Views\\ManagementPage.xaml",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\ManagementPage.xaml",
-              "RelativeToolTip": "Administration\\Views\\ManagementPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-23T02:29:39.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T13:37:09.687Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Home.xaml",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\Home.xaml",
-              "RelativeDocumentMoniker": "Administration\\Views\\Home.xaml",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\Home.xaml",
-              "RelativeToolTip": "Administration\\Views\\Home.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-23T02:29:31.256Z",
-              "EditorCaption": ""
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\LoginVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T14:35:30.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DashboardPage.xaml",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\DashboardPage.xaml",
-              "RelativeDocumentMoniker": "Administration\\Views\\DashboardPage.xaml",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\DashboardPage.xaml",
-              "RelativeToolTip": "Administration\\Views\\DashboardPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-23T02:29:29.581Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "ManagementVM.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\ManagementVM.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\ManagementVM.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T14:35:32.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateUser.xaml",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\CreateUser.xaml",
-              "RelativeDocumentMoniker": "Administration\\Views\\CreateUser.xaml",
-              "ToolTip": "C:\\CCHIC\\ESP\\Livrable3_1830974\\Administration\\Administration\\Views\\CreateUser.xaml",
-              "RelativeToolTip": "Administration\\Views\\CreateUser.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-23T02:29:26.159Z",
-              "EditorCaption": ""
+              "DocumentIndex": 12,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "Administration\\Views\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "Administration\\Views\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:34:05.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Administration\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\App.xaml.cs",
+              "RelativeToolTip": "Administration\\App.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAASwCsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:33:37.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "Administration\\Views\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\Administration\\Administration\\Views\\Home.xaml.cs",
+              "RelativeToolTip": "Administration\\Views\\Home.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:30:02.279Z"
             }
           ]
         }

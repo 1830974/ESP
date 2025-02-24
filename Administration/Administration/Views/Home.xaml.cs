@@ -1,4 +1,5 @@
 ﻿using Administration.ViewModels;
+using Microsoft.Extensions.DependencyInjection;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,25 +18,30 @@ namespace Administration.Views
     /// </summary>
     public partial class Home : Window
     {
-        public Home()
+        private readonly DashboardVM _dashBoardVM;
+
+        public Home(DashboardVM dashboardVM)
         {
             InitializeComponent();
-            this.DataContext = new HomeVM();
-            MainFrame.Navigate(new DashboardPage());
+            this.DataContext = dashboardVM;
+
+            var serviceProvider = ((App)Application.Current).ServiceProvider;
+            var dashboard = serviceProvider.GetRequiredService<DashboardPage>();
+            MainFrame.Navigate(dashboard);
         }
         private void NavigateToHome(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new DashboardPage());
+            //MainFrame.Navigate(new DashboardPage());
         }
 
         private void NavigateToManagement(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new ManagementPage());
+            //MainFrame.Navigate(new ManagementPage());
         }
 
         private void NavigateToReport(object sender, RoutedEventArgs e)
         {
-            MainFrame.Navigate(new ReportPage());
+            //MainFrame.Navigate(new ReportPage());
         }
     }
 }

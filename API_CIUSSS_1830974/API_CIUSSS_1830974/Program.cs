@@ -34,7 +34,7 @@ namespace API_CIUSSS_1830974
 
             builder.Services.AddDbContext<CiusssContext>(options =>
             {
-                var connectionString = builder.Configuration.GetConnectionString("Home");
+                var connectionString = builder.Configuration.GetConnectionString("Default");
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
             });
 

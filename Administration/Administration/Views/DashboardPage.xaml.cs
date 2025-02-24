@@ -21,10 +21,10 @@ namespace Administration.Views
     /// </summary>
     public partial class DashboardPage : Page
     {
-        public DashboardPage()
+        public DashboardPage(DashboardVM dashboardVM)
         {
             InitializeComponent();
-            DataContext = new HomeVM();
+            this.DataContext = dashboardVM;
         }
     }
 }

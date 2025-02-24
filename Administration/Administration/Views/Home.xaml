@@ -7,7 +7,7 @@
         xmlns:vm="clr-namespace:Administration.ViewModels"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        d:DataContext="{d:DesignInstance Type=vm:HomeVM}"
+        d:DataContext="{d:DesignInstance Type=vm:DashboardVM}"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         TextElement.FontWeight="Regular"
         TextElement.FontSize="18"

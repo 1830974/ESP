@@ -68,26 +68,6 @@
   },
   {
     "ContainingType": "API_CIUSSS_1830974.Controllers.ParkingController",
-    "Method": "GetState",
-    "RelativePath": "api/Parking",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "API_CIUSSS_1830974.Models.Parking",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "API_CIUSSS_1830974.Controllers.ParkingController",
     "Method": "SetMaxSpaces",
     "RelativePath": "api/Parking/MaxSpaces",
     "HttpMethod": "PUT",
@@ -157,6 +137,26 @@
     "Method": "ReleaseSpace",
     "RelativePath": "api/Parking/Release",
     "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "API_CIUSSS_1830974.Models.Parking",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_CIUSSS_1830974.Controllers.ParkingController",
+    "Method": "GetState",
+    "RelativePath": "api/Parking/State",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],

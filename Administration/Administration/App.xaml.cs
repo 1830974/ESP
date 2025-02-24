@@ -30,16 +30,23 @@ namespace Administration
             var services = new ServiceCollection();
             services.AddDbContext<CiusssContext>(options =>
                 options.UseMySql(
-                    configuration.GetConnectionString("Home"),
-                    ServerVersion.AutoDetect(configuration.GetConnectionString("Home")),
+                    configuration.GetConnectionString("Default"),
+                    ServerVersion.AutoDetect(configuration.GetConnectionString("Default")),
                     mySqlOptions => mySqlOptions.EnableRetryOnFailure()
                 ));
 
             services.AddSingleton<IConfiguration>(configuration);
 
+            services.AddTransient<CreateUser>();
+            services.AddTransient<CreateUserVM>();
+            services.AddTransient<DashboardPage>();
+            services.AddTransient<DashboardVM>();
             services.AddTransient<Home>();
-            services.AddTransient<LoginVM>();
             services.AddTransient<Login>();
+            services.AddTransient<LoginVM>();
+            services.AddTransient<ManagementPage>();
+            services.AddTransient<ManagementVM>();
+            services.AddTransient<ReportPage>();
 
             ServiceProvider = services.BuildServiceProvider();
 

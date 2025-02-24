@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\CCHIC\ESP\Livrable3_1830974\Administration\Administration\obj\Debug\net6.0-windows\
+P:\Info\Hiver-2025\ESP\Git\ESP_sln\Administration\Administration\obj\Debug\net6.0-windows\
 Administration
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\CCHIC\ESP\Livrable3_1830974\Administration\Administration\App.xaml
+P:\Info\Hiver-2025\ESP\Git\ESP_sln\Administration\Administration\App.xaml
 6-1673200225
 
-251372208540
-235-1500307543
+261761251931
+235179269979
 Views\CreateUser.xaml;Views\DashboardPage.xaml;Views\Home.xaml;Views\Login.xaml;Views\ManagementPage.xaml;Views\ReportPage.xaml;
 
 False

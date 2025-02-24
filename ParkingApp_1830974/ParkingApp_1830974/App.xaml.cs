@@ -29,8 +29,8 @@ namespace ParkingApp_1830974
             var services = new ServiceCollection();
             services.AddDbContext<CiusssContext>(options =>
                 options.UseMySql(
-                    configuration.GetConnectionString("Home"),
-                    ServerVersion.AutoDetect(configuration.GetConnectionString("Home")),
+                    configuration.GetConnectionString("Default"),
+                    ServerVersion.AutoDetect(configuration.GetConnectionString("Default")),
                     mySqlOptions => mySqlOptions.EnableRetryOnFailure()
                 ));
 

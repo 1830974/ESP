@@ -18,7 +18,7 @@ namespace API_CIUSSS_1830974.Controllers
             _Context = context;
         }
 
-        [HttpGet]
+        [HttpGet("State")]
         public async Task<ActionResult<Parking>> GetState()
         {
             Parking? parking = await _Context.Parking.FirstOrDefaultAsync();
