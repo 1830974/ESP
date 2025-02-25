@@ -27,6 +27,17 @@ namespace API_CIUSSS_1830974.Controllers
             return Ok(tickets);
         }
 
+        [HttpGet("Id")]
+        public async Task<ActionResult<Ticket>> GetTicketById(int ticketId)
+        {
+            Ticket? ticket = await _Context.Tickets.FindAsync(ticketId);
+
+            if (ticket == null)
+                return NotFound($"No ticket with ID\"{ticketId}\" was found");
+
+            return Ok(ticket);
+        }
+
         [HttpPost("GenerateTicket")]
         public async Task<ActionResult<Ticket>> GenerateTicket([FromBody][Required]TicketDTO newTicketDTO)
         {
