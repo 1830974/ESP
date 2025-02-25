@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\1830974\Desktop\Git\ESP_sln\ParkingApp_1830974\ParkingApp_1830974\obj\Debug\net6.0-windows\
+C:\CCHIC\ESP\Git\ParkingApp_1830974\ParkingApp_1830974\obj\Debug\net6.0-windows\
 ParkingApp_1830974
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\1830974\Desktop\Git\ESP_sln\ParkingApp_1830974\ParkingApp_1830974\App.xaml
+C:\CCHIC\ESP\Git\ParkingApp_1830974\ParkingApp_1830974\App.xaml
 3480455017
 
 16-317724179
-228-1420429031
+228526431599
 Views\Home.xaml;Views\LicenseList.xaml;Views\Login.xaml;
 
-False
+True
 

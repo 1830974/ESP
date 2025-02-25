@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ParkingStatus" xml:space="preserve">
+    <value>État du stationnement</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Résumé</value>
+  </data>
+  <data name="PieChartSummary" xml:space="preserve">
+    <value>Résumé du graphique circulaire:</value>
+  </data>
+  <data name="TotalRevenue" xml:space="preserve">
+    <value>Total des revenus:</value>
+  </data>
+  <data name="RevenueTrend" xml:space="preserve">
+    <value>Tendance des revenus (7 derniers jours)</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>Jour</value>
+  </data>
+  <data name="Revenue" xml:space="preserve">
+    <value>Revenus</value>
+  </data>
+  <data name="UnpaidTickets" xml:space="preserve">
+    <value>Tickets actifs non payés</value>
+  </data>
+  <data name="AvailableSpaces" xml:space="preserve">
+    <value>Places disponibles</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Tableau de Bord</value>
+  </data>
+  <data name="HomeButton" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>Gestion</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>FR</value>
+  </data>
+  <data name="UsersTab" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="RatesTab" xml:space="preserve">
+    <value>Tarifs</value>
+  </data>
+  <data name="UsernameColumn" xml:space="preserve">
+    <value>Code d'utilisateur</value>
+  </data>
+  <data name="FirstNameColumn" xml:space="preserve">
+    <value>Prénom</value>
+  </data>
+  <data name="LastNameColumn" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="EmailColumn" xml:space="preserve">
+    <value>Courriel</value>
+  </data>
+  <data name="StateColumn" xml:space="preserve">
+    <value>État</value>
+  </data>
+  <data name="ActionsColumn" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="EditButton" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="AddUserButton" xml:space="preserve">
+    <value>Ajouter un utilisateur</value>
+  </data>
+  <data name="HourlyRateGroup" xml:space="preserve">
+    <value>Tarif horaire</value>
+  </data>
+  <data name="EnterHourlyRateHint" xml:space="preserve">
+    <value>Entrez le tarif horaire</value>
+  </data>
+  <data name="HalfDayRateGroup" xml:space="preserve">
+    <value>Tarif demi-journée</value>
+  </data>
+  <data name="EnterHalfDayRateHint" xml:space="preserve">
+    <value>Entrez le tarif demi-journée</value>
+  </data>
+  <data name="FullDayRateGroup" xml:space="preserve">
+    <value>Tarif journée complète</value>
+  </data>
+  <data name="EnterFullDayRateHint" xml:space="preserve">
+    <value>Entrez le tarif journée complète</value>
+  </data>
+  <data name="ProvincialTaxGroup" xml:space="preserve">
+    <value>Taxe provinciale</value>
+  </data>
+  <data name="EnterProvincialTaxHint" xml:space="preserve">
+    <value>Entrez le taux de taxe provinciale</value>
+  </data>
+  <data name="FederalTaxGroup" xml:space="preserve">
+    <value>Taxe fédérale</value>
+  </data>
+  <data name="EnterFederalTaxHint" xml:space="preserve">
+    <value>Entrez le taux de taxe fédérale</value>
+  </data>
+  <data name="TicketsTab" xml:space="preserve">
+    <value>Billets</value>
+  </data>
+  <data name="IDColumn" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ArrivalTimeColumn" xml:space="preserve">
+    <value>Heure d'arrivée</value>
+  </data>
+  <data name="PaymentTimeColumn" xml:space="preserve">
+    <value>Heure de paiement</value>
+  </data>
+  <data name="LicensePlateColumn" xml:space="preserve">
+    <value>Plaque d'immatriculation</value>
+  </data>
+  <data name="ModifyButton" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="ReportPageTitle" xml:space="preserve">
+    <value>Rapport</value>
+  </data>
+  <data name="ReportHeader" xml:space="preserve">
+    <value>Page Rapport</value>
+  </data>
+  <data name="RevenueReport" xml:space="preserve">
+    <value>1. Rapport de revenu</value>
+  </data>
+  <data name="RevenueReportDescription" xml:space="preserve">
+    <value>Ce rapport présente une analyse complète de vos revenus.</value>
+  </data>
+  <data name="StartDateHint" xml:space="preserve">
+    <value>Date de début</value>
+  </data>
+  <data name="EndDateHint" xml:space="preserve">
+    <value>Date de fin</value>
+  </data>
+  <data name="GenerateRevenueReportButton" xml:space="preserve">
+    <value>Générer le rapport de revenu</value>
+  </data>
+  <data name="DebugReport" xml:space="preserve">
+    <value>2. Rapport de debug</value>
+  </data>
+  <data name="DebugReportDescription" xml:space="preserve">
+    <value>Le rapport de debug permet d'identifier et résoudre les problèmes techniques.</value>
+  </data>
+  <data name="StartDateTimeHint" xml:space="preserve">
+    <value>Date et heure de début</value>
+  </data>
+  <data name="EndDateTimeHint" xml:space="preserve">
+    <value>End Date and Time</value>
+  </data>
+  <data name="ViewDebugReportButton" xml:space="preserve">
+    <value>View Debug Report</value>
+  </data>
+  <data name="BlockedRequestsDetails" xml:space="preserve">
+    <value>Blocked Requests Details:</value>
+  </data>
+  <data name="RequestIdColumn" xml:space="preserve">
+    <value>ID de requête</value>
+  </data>
+  <data name="UsersColumn" xml:space="preserve">
+    <value>Utilisateurs</value>
+  </data>
+  <data name="ReasonColumn" xml:space="preserve">
+    <value>Raison</value>
+  </data>
+  <data name="LogReport" xml:space="preserve">
+    <value>3. Rapport des logs</value>
+  </data>
+  <data name="LogReportDescription" xml:space="preserve">
+    <value>Le rapport des logs vous permet de suivre toutes les activités du système.</value>
+  </data>
+  <data name="LogEntryTypeHint" xml:space="preserve">
+    <value>Type d'entrée</value>
+  </data>
+  <data name="ShowLogReportButton" xml:space="preserve">
+    <value>Afficher le rapport des logs</value>
+  </data>
+  <data name="CreateUserTitle" xml:space="preserve">
+    <value>Créer un utilisateur</value>
+  </data>
+  <data name="UsernameHint" xml:space="preserve">
+    <value>Code d'utilisateur</value>
+  </data>
+  <data name="PasswordHint" xml:space="preserve">
+    <value> Mot de passe</value>
+  </data>
+  <data name="FirstNameHint" xml:space="preserve">
+    <value> Prénom</value>
+  </data>
+  <data name="LastNameHint" xml:space="preserve">
+    <value> Nom de famille</value>
+  </data>
+  <data name="EmailHint" xml:space="preserve">
+    <value>Courriel</value>
+  </data>
+  <data name="ActiveCheckBox" xml:space="preserve">
+    <value>Actif</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="ConfirmButton" xml:space="preserve">
+    <value>Confirmer</value>
+  </data>
+</root>

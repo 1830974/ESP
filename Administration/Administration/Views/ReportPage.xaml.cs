@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Administration.Models.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,11 +19,16 @@ namespace Administration.Views
     /// <summary>
     /// Logique d'interaction pour ReportPage.xaml
     /// </summary>
-    public partial class ReportPage : Page
+    public partial class ReportPage : Page, ILanguageRefresher
     {
         public ReportPage()
         {
             InitializeComponent();
+        }
+
+        public async Task RefreshLanguage()
+        {
+            
         }
     }
 }

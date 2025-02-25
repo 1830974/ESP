@@ -1,5 +1,8 @@
 ﻿using Administration.ViewModels;
 using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.ComponentModel;
+using System.Globalization;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -10,38 +13,85 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Administration.Resources;
+using System.Runtime.CompilerServices;
+using Administration.Models.Interfaces;
+using static MaterialDesignThemes.Wpf.Theme;
 
 namespace Administration.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Home.xaml
     /// </summary>
-    public partial class Home : Window
+    public partial class Home : Window, INotifyPropertyChanged
     {
         private readonly DashboardVM _dashBoardVM;
+        private readonly IServiceProvider _serviceProvider;
+        public event PropertyChangedEventHandler PropertyChanged;
 
-        public Home(DashboardVM dashboardVM)
+        public string DashboardText => Strings.Dashboard;
+        public string HomeButtonText => Strings.HomeButton;
+        public string ManagementText => Strings.Management;
+        public string ReportText => Strings.Report;
+        public string LanguageButtonText => Thread.CurrentThread.CurrentCulture.Name == "fr" ? "EN" : "FR";
+
+        public Home(DashboardVM dashboardVM, IServiceProvider serviceProvider)
         {
-            InitializeComponent();
-            this.DataContext = dashboardVM;
 
-            var serviceProvider = ((App)Application.Current).ServiceProvider;
-            var dashboard = serviceProvider.GetRequiredService<DashboardPage>();
+            InitializeComponent();
+            this.DataContext = this;
+
+            _serviceProvider = serviceProvider;
+            var dashboard = _serviceProvider.GetRequiredService<DashboardPage>();
+
             MainFrame.Navigate(dashboard);
         }
         private void NavigateToHome(object sender, RoutedEventArgs e)
         {
-            //MainFrame.Navigate(new DashboardPage());
+            var dashboard = _serviceProvider.GetRequiredService<DashboardPage>();
+            MainFrame.Navigate(dashboard);
         }
 
         private void NavigateToManagement(object sender, RoutedEventArgs e)
         {
-            //MainFrame.Navigate(new ManagementPage());
+            var managementPage = _serviceProvider.GetRequiredService<ManagementPage>();
+            MainFrame.Navigate(managementPage);
         }
 
         private void NavigateToReport(object sender, RoutedEventArgs e)
         {
-            //MainFrame.Navigate(new ReportPage());
+            var reportPage = _serviceProvider.GetRequiredService<ReportPage>();
+            MainFrame.Navigate(reportPage);
+        }
+
+        private void SwitchLanguage(object sender, RoutedEventArgs e)
+        {
+            string language = Thread.CurrentThread.CurrentCulture.Name == "fr" ? "en-US" : "fr";
+            Thread.CurrentThread.CurrentCulture = new CultureInfo(language);
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(language);
+
+            OnPropertyChanged(nameof(DashboardText));
+            OnPropertyChanged(nameof(HomeButtonText));
+            OnPropertyChanged(nameof(ManagementText));
+            OnPropertyChanged(nameof(ReportText));
+            OnPropertyChanged(nameof(LanguageButtonText));
+
+            var currentPageType = MainFrame.Content.GetType();
+
+            var newPage = _serviceProvider.GetRequiredService(currentPageType);
+
+            if (newPage is ILanguageRefresher refreshablePage)
+            {
+                refreshablePage.RefreshLanguage();
+            }
+
+            MainFrame.Navigate(newPage);
+        }
+
+
+        private void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

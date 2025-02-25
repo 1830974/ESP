@@ -1,4 +1,5 @@
-﻿using Administration.ViewModels;
+﻿using Administration.Models.Interfaces;
+using Administration.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,12 +20,18 @@ namespace Administration.Views
     /// <summary>
     /// Logique d'interaction pour ManagementPage.xaml
     /// </summary>
-    public partial class ManagementPage : Page
+    public partial class ManagementPage : Page, ILanguageRefresher
     {
+        private int _selectedTabIndex;
         public ManagementPage()
         {
             InitializeComponent();
             this.DataContext = new ManagementVM();
+        }
+
+        public async Task RefreshLanguage()
+        {
+
         }
     }
 }

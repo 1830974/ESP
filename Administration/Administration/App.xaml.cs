@@ -35,6 +35,11 @@ namespace Administration
                     mySqlOptions => mySqlOptions.EnableRetryOnFailure()
                 ));
 
+            services.AddTransient<Home>(provider => new Home(
+                provider.GetRequiredService<DashboardVM>(),
+                provider
+            ));
+
             services.AddSingleton<IConfiguration>(configuration);
 
             services.AddTransient<CreateUser>();

@@ -13,6 +13,8 @@ using Administration.Data.Context;
 using Microsoft.Extensions.Configuration;
 using Administration.Data;
 using Microsoft.EntityFrameworkCore;
+using Xceed.Wpf.AvalonDock.Properties;
+using Administration.Resources;
 
 namespace Administration.ViewModels
 {
@@ -54,36 +56,32 @@ namespace Administration.ViewModels
         [ObservableProperty]
         private List<PieChartDataItem> _pieChartDataItems;
 
-        private async Task InitializeChartData()
+        public async Task InitializeChartData()
         {
             Parking? parking = await ApiHelper.GetParkingState(_apiKey);
+            List<WeeklyRevenue> weeklyRevenues = await GetWeeklyRevenues();
+            PieLabels = new List<string> { Resources.Strings.UnpaidTickets, Resources.Strings.AvailableSpaces };
 
             PieSeriesCollection = new SeriesCollection
             {
                 new PieSeries
                 {
-                    Title = "Tickets actifs non payés",
+                    Title = Resources.Strings.UnpaidTickets,
                     Values = new ChartValues<double> { parking.OccupiedSpaces },
                 },
                 new PieSeries
                 {
-                    Title = "Places disponibles",
+                    Title = Resources.Strings.AvailableSpaces,
                     Values = new ChartValues<double> { parking.AllSpaces - parking.OccupiedSpaces },
                 }
             };
-
-            UpdatePieChartDataItems();
-
-            PieLabels = new List<string> { "Tickets non payés", "Places disponibles" };
-
-            List<object> wR = await GetWeeklyRevenues();
 
             CartesianSeriesCollection = new SeriesCollection
             {
                 new LineSeries
                 {
-                    Title = "Revenus",
-                    Values = new ChartValues<double> {  }
+                    Title = Resources.Strings.Revenue,
+                    Values = new ChartValues<double>(weeklyRevenues.Select(wr => (double)wr.TotalRevenue))
                 }
             };
 
@@ -92,8 +90,9 @@ namespace Administration.ViewModels
                 .Reverse()
                 .ToList();
 
-            Formatter = value => value.ToString("C2");
+            Formatter = value => value.ToString("C2", new System.Globalization.CultureInfo("en-US"));
 
+            UpdatePieChartDataItems();
             UpdateTotalRevenue();
         }
 
@@ -120,26 +119,23 @@ namespace Administration.ViewModels
             TotalRevenue = CartesianSeriesCollection[0].Values.Cast<double>().Sum();
         }
 
-        private async Task<List<object>> GetWeeklyRevenues()
+        private async Task<List<WeeklyRevenue>> GetWeeklyRevenues()
         {
             DateTime monday = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek + (int)DayOfWeek.Monday);
             DateTime endOfWeek = monday.AddDays(6);
 
-            var test = await _context.Reciepts
-                .Include(r => r.Ticket)
-                .GroupBy(r => r.Ticket.PaymentTime.Date)
-                .Select(group => new
+            var weekDays = Enumerable.Range(0, 7)
+                .Select(offset => monday.AddDays(offset))
+                .ToDictionary(date => date.Date, date => new WeeklyRevenue
                 {
-                    Date = group.Key,
-                    TotalRevenue = group.Sum(r => r.Total),
-                    TotalTPS = group.Sum(r => r.TPS),
-                    TotalTVQ = group.Sum(r => r.TVQ),
-                    ReceiptCount = group.Count()
-                })
-                .OrderBy(x => x.Date)
-                .ToListAsync();
+                    Date = date,
+                    TotalRevenue = 0,
+                    TotalTPS = 0,
+                    TotalTVQ = 0,
+                    ReceiptCount = 0
+                });
 
-            /*var receipts = await _context.Reciepts
+            var receiptsData = await _context.Reciepts
                 .Include(r => r.Ticket)
                 .Where(r => r.Ticket.PaymentTime >= monday && r.Ticket.PaymentTime <= endOfWeek)
                 .GroupBy(r => r.Ticket.PaymentTime.Date)
@@ -151,12 +147,30 @@ namespace Administration.ViewModels
                     TotalTVQ = group.Sum(r => r.TVQ),
                     ReceiptCount = group.Count()
                 })
-                .OrderBy(x => x.Date)
-                .ToListAsync();*/
+                .ToListAsync();
 
-            Console.WriteLine("");
-            return /*receipts.Cast*/new List<object>(test).ToList();
+            foreach (var receipt in receiptsData)
+            {
+                if (weekDays.TryGetValue(receipt.Date, out var weekRevenue))
+                {
+                    weekRevenue.TotalRevenue = receipt.TotalRevenue;
+                    weekRevenue.TotalTPS = receipt.TotalTPS;
+                    weekRevenue.TotalTVQ = receipt.TotalTVQ;
+                    weekRevenue.ReceiptCount = receipt.ReceiptCount;
+                }
+            }
+
+            return weekDays.Values.OrderBy(wr => wr.Date).ToList();
         }
         #endregion
+
+        private class WeeklyRevenue
+        {
+            public DateTime Date { get; set; }
+            public double TotalRevenue { get; set; }
+            public double TotalTPS { get; set; }
+            public double TotalTVQ { get; set; }
+            public int ReceiptCount { get; set; }
+        }
     }
 }

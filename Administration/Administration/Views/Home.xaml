@@ -1,22 +1,23 @@
 ﻿<Window x:Class="Administration.Views.Home"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Administration"
-        xmlns:vm="clr-namespace:Administration.ViewModels"
-        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        mc:Ignorable="d"
-        d:DataContext="{d:DesignInstance Type=vm:DashboardVM}"
-        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
-        TextElement.FontWeight="Regular"
-        TextElement.FontSize="18"
-        TextOptions.TextFormattingMode="Ideal"
-        TextOptions.TextRenderingMode="Auto"
-        Background="#E3F2FD"
-        FontFamily="{DynamicResource MaterialDesignFont}"
-        Title="Home" Height="600" Width="1024"
-        WindowState="Maximized">
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Administration"
+    xmlns:vm="clr-namespace:Administration.ViewModels"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:properties="clr-namespace:Administration.Resources"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignInstance Type=vm:DashboardVM}"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextElement.FontWeight="Regular"
+    TextElement.FontSize="18"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    Background="#E3F2FD"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    Title="{x:Static properties:Strings.Dashboard}" Height="600" Width="1024"
+    WindowState="Maximized">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -32,30 +33,30 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="0" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" HorizontalAlignment="Left" Margin="0,0,8,0">
-                    <TextBlock Text="FR" Foreground="White" FontWeight="Bold"/>
+                <Button Grid.Column="0" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" HorizontalAlignment="Left" Margin="0,0,8,0" Click="SwitchLanguage">
+                    <TextBlock Text="{Binding LanguageButtonText}" Foreground="White" FontWeight="Bold"/>
                 </Button>
 
                 <Button Grid.Column="0"  Margin="40,0,0,0" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" HorizontalAlignment="Left" Click="NavigateToHome">
                     <StackPanel Orientation="Horizontal">
                         <materialDesign:PackIcon Kind="Home" VerticalAlignment="Center" Foreground="White"/>
-                        <TextBlock Text="Accueil" Margin="8 0 0 0" Foreground="White"/>
+                        <TextBlock Text="{Binding HomeButtonText}" Margin="8 0 0 0" Foreground="White"/>
                     </StackPanel>
                 </Button>
 
-                <TextBlock Grid.Column="0" Grid.ColumnSpan="3" Text="Tableau de Bord" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="24" FontWeight="Bold" />
+                <TextBlock Grid.Column="0" Grid.ColumnSpan="3" Text="{Binding DashboardText}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="24" FontWeight="Bold" />
 
                 <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button Style="{StaticResource MaterialDesignFlatButton}" Margin="0 0 8 0" Foreground="White" Click="NavigateToManagement">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Cog" VerticalAlignment="Center" Foreground="White"/>
-                            <TextBlock Text="Gestion" Margin="8 0 0 0" Foreground="White"/>
+                            <TextBlock Text="{Binding ManagementText}" Margin="8 0 0 0" Foreground="White"/>
                         </StackPanel>
                     </Button>
                     <Button Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Click="NavigateToReport">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="ChartBar" VerticalAlignment="Center" Foreground="White"/>
-                            <TextBlock Text="Rapport" Margin="8 0 0 0" Foreground="White"/>
+                            <TextBlock Text="{Binding ReportText}" Margin="8 0 0 0" Foreground="White"/>
                         </StackPanel>
                     </Button>
                 </StackPanel>

@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Input;
-using Administration.Ressources;
+using Administration.Resources;
 using Administration.Views;
 using Microsoft.Extensions.DependencyInjection;
 using Administration.Data.Context;

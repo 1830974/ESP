@@ -6,9 +6,11 @@
       xmlns:local="clr-namespace:Administration.Views"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+      xmlns:viewmodels="clr-namespace:Administration.ViewModels"
+      xmlns:properties="clr-namespace:Administration.Resources"
       mc:Ignorable="d"
       d:DesignHeight="600" d:DesignWidth="1024"
-      Title="Rapport">
+      Title="{x:Static properties:Strings.ReportPageTitle}">
 
     <Grid Margin="20">
         <Grid.RowDefinitions>
@@ -16,58 +18,58 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Text="Page Rapport" FontSize="24" FontWeight="Bold" Margin="0 0 0 20"/>
+        <TextBlock x:Name="ReportHeader" Text="{x:Static properties:Strings.ReportHeader}" FontSize="24" FontWeight="Bold" Margin="0 0 0 20"/>
 
         <ScrollViewer Grid.Row="1">
             <StackPanel>
 
-                <materialDesign:Card Margin="0 0 0 20" Padding="20">
+                <materialDesign:Card x:Name="RevenueReportCard" Margin="0 0 0 20" Padding="20">
                     <StackPanel>
-                        <TextBlock Text="1. Rapport de revenu" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
-                        <TextBlock Text="Ce rapport présente une analyse complète de vos revenus." TextWrapping="Wrap" Margin="0 0 0 10"/>
+                        <TextBlock x:Name="RevenueReportHeader" Text="{x:Static properties:Strings.RevenueReport}" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
+                        <TextBlock x:Name="RevenueReportDescription" Text="{x:Static properties:Strings.RevenueReportDescription}" TextWrapping="Wrap" Margin="0 0 0 10"/>
 
-                        <DatePicker materialDesign:HintAssist.Hint="Date de début" Margin="0 5 0 5"/>
+                        <DatePicker materialDesign:HintAssist.Hint="{x:Static properties:Strings.StartDateHint}" Margin="0 5 0 5"/>
 
-                        <DatePicker materialDesign:HintAssist.Hint="Date de fin" Margin="0 5 0 5"/>
+                        <DatePicker materialDesign:HintAssist.Hint="{x:Static properties:Strings.EndDateHint}" Margin="0 5 0 5"/>
 
-                        <Button Content="Générer le rapport de revenu" Style="{StaticResource MaterialDesignRaisedButton}" Margin="0 10 0 0"/>
+                        <Button Content="{x:Static properties:Strings.GenerateRevenueReportButton}" Style="{StaticResource MaterialDesignRaisedButton}" Margin="0 10 0 0"/>
                     </StackPanel>
                 </materialDesign:Card>
 
-                <materialDesign:Card Margin="0 0 0 20" Padding="20">
+                <materialDesign:Card x:Name="DebugReportCard" Margin="0 0 0 20" Padding="20">
                     <StackPanel>
-                        <TextBlock Text="2. Rapport de debug" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
-                        <TextBlock Text="Le rapport de debug permet d'identifier et résoudre les problèmes techniques." TextWrapping="Wrap" Margin="0 0 0 10"/>
+                        <TextBlock x:Name="DebugReportHeader" Text="{x:Static properties:Strings.DebugReport}" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
+                        <TextBlock x:Name="DebugReportDescription" Text="{x:Static properties:Strings.DebugReportDescription}" TextWrapping="Wrap" Margin="0 0 0 10"/>
 
-                        <xctk:DateTimePicker Value="{Binding DebugReportStartDate}" materialDesign:HintAssist.Hint="Date et heure de début" Margin="0 5 0 5" />
+                        <xctk:DateTimePicker Value="{Binding DebugReportStartDate}" materialDesign:HintAssist.Hint="{x:Static properties:Strings.StartDateTimeHint}" Margin="0 5 0 5" />
 
-                        <xctk:DateTimePicker Value="{Binding DebugReportEndDate}" materialDesign:HintAssist.Hint="Date et heure de fin" Margin="0 5 0 5" />
+                        <xctk:DateTimePicker Value="{Binding DebugReportEndDate}" materialDesign:HintAssist.Hint="{x:Static properties:Strings.EndDateTimeHint}" Margin="0 5 0 5" />
 
-                        <Button Content="Voir le rapport de debug" Style="{StaticResource MaterialDesignRaisedButton}" Margin="0 10 0 0"/>
+                        <Button Content="{x:Static properties:Strings.ViewDebugReportButton}" Style="{StaticResource MaterialDesignRaisedButton}" Margin="0 10 0 0"/>
 
-                        <TextBlock Text="Détails des requêtes bloquées:" FontWeight="Bold" Margin="0 20 0 10"/>
-                        <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding BlockedRequests}" Height="200">
+                        <TextBlock x:Name="BlockedRequestsDetails" Text="{x:Static properties:Strings.BlockedRequestsDetails}" FontWeight="Bold" Margin="0 20 0 10"/>
+                        <DataGrid x:Name="BlockedRequestsDataGrid" AutoGenerateColumns="False" ItemsSource="{Binding BlockedRequests}" Height="200">
                             <DataGrid.Columns>
-                                <DataGridTextColumn Header="ID de requête" Binding="{Binding RequestId}"/>
-                                <DataGridTextColumn Header="Utilisateurs" Binding="{Binding Users}"/>
-                                <DataGridTextColumn Header="Raison" Binding="{Binding Reason}"/>
+                                <DataGridTextColumn Header="{x:Static properties:Strings.RequestIdColumn}" Binding="{Binding RequestId}"/>
+                                <DataGridTextColumn Header="{x:Static properties:Strings.UsersColumn}" Binding="{Binding Users}"/>
+                                <DataGridTextColumn Header="{x:Static properties:Strings.ReasonColumn}" Binding="{Binding Reason}"/>
                             </DataGrid.Columns>
                         </DataGrid>
                     </StackPanel>
                 </materialDesign:Card>
 
-                <materialDesign:Card Margin="0 0 0 20" Padding="20">
+                <materialDesign:Card x:Name="LogReportCard" Margin="0 0 0 20" Padding="20">
                     <StackPanel>
-                        <TextBlock Text="3. Rapport des logs" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
-                        <TextBlock Text="Le rapport des logs vous permet de suivre toutes les activités du système." TextWrapping="Wrap" Margin="0 0 0 10"/>
+                        <TextBlock x:Name="LogReportHeader" Text="{x:Static properties:Strings.LogReport}" FontSize="20" FontWeight="Bold" Margin="0 0 0 10"/>
+                        <TextBlock x:Name="LogReportDescription" Text="{x:Static properties:Strings.LogReportDescription}" TextWrapping="Wrap" Margin="0 0 0 10"/>
 
-                        <DatePicker materialDesign:HintAssist.Hint="Date de début" Margin="0 5 0 5"/>
+                        <DatePicker materialDesign:HintAssist.Hint="{x:Static properties:Strings.StartDateHint}" Margin="0 5 0 5"/>
 
-                        <DatePicker materialDesign:HintAssist.Hint="Date de fin" Margin="0 5 0 5"/>
+                        <DatePicker materialDesign:HintAssist.Hint="{x:Static properties:Strings.EndDateHint}" Margin="0 5 0 5"/>
 
-                        <TextBox materialDesign:HintAssist.Hint="Type d'entrée" Margin="0 5 0 5"/>
+                        <TextBox materialDesign:HintAssist.Hint="{x:Static properties:Strings.LogEntryTypeHint}" Margin="0 5 0 5"/>
 
-                        <Button Content="Afficher le rapport des logs" Style="{StaticResource MaterialDesignRaisedButton}" Margin="0 10 0 0"/>
+                        <Button Content="{x:Static properties:Strings.ShowLogReportButton}" Style="{StaticResource MaterialDesignRaisedButton}" Margin="0 10 0 0"/>
                     </StackPanel>
                 </materialDesign:Card>
             </StackPanel>
