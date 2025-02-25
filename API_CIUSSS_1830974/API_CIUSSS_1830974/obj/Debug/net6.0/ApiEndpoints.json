@@ -468,6 +468,32 @@
   },
   {
     "ContainingType": "API_CIUSSS_1830974.Controllers.TicketController",
+    "Method": "GetTicketById",
+    "RelativePath": "api/Ticket/Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ticketId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_CIUSSS_1830974.Models.Ticket",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_CIUSSS_1830974.Controllers.TicketController",
     "Method": "PayTicket",
     "RelativePath": "api/Ticket/PayTicket",
     "HttpMethod": "PUT",
