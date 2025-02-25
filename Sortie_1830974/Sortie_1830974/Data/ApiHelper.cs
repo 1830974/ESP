@@ -16,7 +16,7 @@ namespace Sortie_1830974.Data
 
         public static async Task<(Ticket? Ticket, string? ErrorMessage)> GetTicketById(int ticketId, string apiKey)
         {
-            string url = $"{ApiBaseUrl}/Ticket/Id";
+            string url = $"{ApiBaseUrl}/Ticket/Id?ticketId={ticketId}";
 
             _httpClient.DefaultRequestHeaders.Clear();
             _httpClient.DefaultRequestHeaders.Add("X-API-Key", apiKey);
@@ -27,6 +27,10 @@ namespace Sortie_1830974.Data
             {
                 var content = await response.Content.ReadAsStringAsync();
                 var ticket = JsonConvert.DeserializeObject<Ticket>(content);
+
+                if (ticket.State != "Payé")
+                    return (ticket, $"Ticket with ID \"{ticketId}\" is unpaid");
+
                 return (ticket, null);
             }
 

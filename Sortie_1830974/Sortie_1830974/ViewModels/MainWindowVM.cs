@@ -22,7 +22,12 @@ namespace Sortie_1830974.ViewModels
         [ObservableProperty]
         private string _displayMessage;
 
-        public MainWindowVM(IConfiguration configuration)
+        public MainWindowVM()
+        {
+            
+        }
+
+        public MainWindowVM(IConfiguration configuration) : this()
         {
             _apiKey = configuration["ApiKey"];
             DisplayMessage = _defaultMessage;
@@ -31,6 +36,8 @@ namespace Sortie_1830974.ViewModels
         [RelayCommand]
         private async Task VerifyScannedTicket(int ticketId)
         {
+            Console.WriteLine(_apiKey.ToString());
+
             if (_isProcessing) return;
 
             _isProcessing = true;
@@ -40,9 +47,10 @@ namespace Sortie_1830974.ViewModels
             {
                 var (ticket, errorMessage) = await ApiHelper.GetTicketById(ticketId, _apiKey);
 
-                if (ticket.State != "Payé" || ticket == null)
+                if (ticket == null || ticket.State != "Payé")
                 {
                     DisplayMessage = errorMessage ?? "An unknown error occurred";
+                    await Task.Delay(10000);
                     return;
                 }
 

@@ -4,10 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Sortie_1830974"
+        xmlns:vm="clr-namespace:Sortie_1830974.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Height="640" Width="480"
         PreviewKeyDown="Window_PreviewKeyDown">
-    
+
     <Grid Background="#FF4CAF50">
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="{Binding DisplayMessage}" 

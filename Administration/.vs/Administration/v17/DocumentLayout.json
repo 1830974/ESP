@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\managementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CreateUser.xaml",
               "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\CreateUser.xaml",
               "RelativeDocumentMoniker": "Administration\\Views\\CreateUser.xaml",
@@ -90,31 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateUserVM.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
-              "RelativeDocumentMoniker": "Administration\\ViewModels\\CreateUserVM.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
-              "RelativeToolTip": "Administration\\ViewModels\\CreateUserVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T00:32:09.934Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Administration\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\AssemblyInfo.cs",
-              "RelativeToolTip": "Administration\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T00:28:10.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Administration",
               "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Administration.csproj",
               "RelativeDocumentMoniker": "Administration\\Administration.csproj",
@@ -125,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Home.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\Home.xaml.cs",
               "RelativeDocumentMoniker": "Administration\\Views\\Home.xaml.cs",
@@ -137,7 +113,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "ManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ManagementPage.xaml",
+              "RelativeDocumentMoniker": "Administration\\Views\\ManagementPage.xaml",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ManagementPage.xaml",
+              "RelativeToolTip": "Administration\\Views\\ManagementPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T23:37:16.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserVM.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\CreateUserVM.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\CreateUserVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T00:32:09.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ReportPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ReportPage.xaml.cs",
               "RelativeDocumentMoniker": "Administration\\Views\\ReportPage.xaml.cs",
@@ -149,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ReportPage.xaml",
               "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ReportPage.xaml",
               "RelativeDocumentMoniker": "Administration\\Views\\ReportPage.xaml",
@@ -160,14 +161,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManagementPage.xaml",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ManagementPage.xaml",
-              "RelativeDocumentMoniker": "Administration\\Views\\ManagementPage.xaml",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ManagementPage.xaml",
-              "RelativeToolTip": "Administration\\Views\\ManagementPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-24T23:37:16.879Z"
+              "DocumentIndex": 1,
+              "Title": "ManagementVM.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\ManagementVM.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\ManagementVM.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAawCMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T23:36:27.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Administration\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\AssemblyInfo.cs",
+              "RelativeToolTip": "Administration\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T00:28:10.067Z"
             },
             {
               "$type": "Document",
@@ -180,18 +195,6 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T23:37:58.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ManagementVM.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
-              "RelativeDocumentMoniker": "Administration\\ViewModels\\ManagementVM.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
-              "RelativeToolTip": "Administration\\ViewModels\\ManagementVM.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAMwCMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T23:36:27.677Z"
             },
             {
               "$type": "Document",
@@ -230,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Home.xaml",
               "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\Home.xaml",
               "RelativeDocumentMoniker": "Administration\\Views\\Home.xaml",
