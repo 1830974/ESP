@@ -57,7 +57,9 @@ namespace Sortie_1830974.Views
             if (!string.IsNullOrEmpty(barcodeBuffer))
             {
                 var viewModel = DataContext as MainWindowVM;
-                viewModel?.VerifyScannedTicketCommand.Execute(barcodeBuffer);
+                string trimmedBuffer = barcodeBuffer.Replace("D", "");
+                int.TryParse(trimmedBuffer, out int ticketId);
+                viewModel?.VerifyScannedTicketCommand.Execute(ticketId);
                 barcodeBuffer = string.Empty;
             }
         }
