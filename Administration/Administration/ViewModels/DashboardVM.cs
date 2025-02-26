@@ -137,8 +137,10 @@ namespace Administration.ViewModels
 
             var receiptsData = await _context.Reciepts
                 .Include(r => r.Ticket)
-                .Where(r => r.Ticket.PaymentTime >= monday && r.Ticket.PaymentTime <= endOfWeek)
-                .GroupBy(r => r.Ticket.PaymentTime.Date)
+                .Where(r => r.Ticket.PaymentTime.HasValue &&
+                            r.Ticket.PaymentTime.Value >= monday &&
+                            r.Ticket.PaymentTime.Value <= endOfWeek)
+                .GroupBy(r => r.Ticket.PaymentTime.Value.Date)
                 .Select(group => new
                 {
                     Date = group.Key,

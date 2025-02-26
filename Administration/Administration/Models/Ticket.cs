@@ -10,7 +10,7 @@ namespace Administration.Models
     {
         public int Id { get; set; }
         public DateTime ArrivalTime { get; set; }
-        public DateTime PaymentTime { get; set; }
+        public DateTime? PaymentTime { get; set; }
         public string LicensePlate { get; set; }
         public string State { get; set; }
 

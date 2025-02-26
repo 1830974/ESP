@@ -1,14 +1,18 @@
-﻿using Administration.Models;
+﻿using Administration.Data.Context;
+using Administration.Models;
 using Administration.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using Administration.Resources;
 
 namespace Administration.ViewModels
 {
@@ -21,22 +25,25 @@ namespace Administration.ViewModels
         private ObservableCollection<Ticket> tickets;
 
         [ObservableProperty]
-        private decimal hourlyRate;
+        private double hourlyRate;
 
         [ObservableProperty]
-        private decimal halfDayRate;
+        private double halfDayRate;
 
         [ObservableProperty]
-        private decimal fullDayRate;
+        private double fullDayRate;
 
         [ObservableProperty]
-        private decimal provincialTaxRate;
+        private double provincialTaxRate;
 
         [ObservableProperty]
-        private decimal federalTaxRate;
+        private double federalTaxRate;
 
-        public ManagementVM()
+        private readonly CiusssContext _context;
+
+        public ManagementVM(CiusssContext context)
         {
+            _context = context;
             Users = new ObservableCollection<User>();
             Tickets = new ObservableCollection<Ticket>();
             LoadUsers();
@@ -46,52 +53,37 @@ namespace Administration.ViewModels
 
         private void LoadUsers()
         {
-            Users.Add(new User("jsmith", "pass123", "John", "Smith", "john.smith@email.com", true));
-            Users.Add(new User("emiller", "securePass", "Emma", "Miller", "emma.miller@email.com", true));
-            Users.Add(new User("dwilliams", "will1ams", "David", "Williams", "d.williams@email.com", false));
-            Users.Add(new User("sbrown", "brownSue", "Susan", "Brown", "susan.brown@email.com", true));
-            Users.Add(new User("mjohnson", "mikeJ2023", "Michael", "Johnson", "m.johnson@email.com", true));
-            Users.Add(new User("ltaylor", "taylorL!", "Lisa", "Taylor", "lisa.taylor@email.com", false));
-            Users.Add(new User("rclark", "clarkR1234", "Robert", "Clark", "robert.clark@email.com", true));
-            Users.Add(new User("alee", "leeA2023", "Amanda", "Lee", "amanda.lee@email.com", true));
-            Users.Add(new User("kwhite", "whiteK!", "Kevin", "White", "kevin.white@email.com", false));
-            Users.Add(new User("ngreen", "greenN123", "Nancy", "Green", "nancy.green@email.com", true));
-            Users.Add(new User("bhill", "hillB2023", "Brian", "Hill", "brian.hill@email.com", true));
-            Users.Add(new User("cscott", "scottC!", "Carol", "Scott", "carol.scott@email.com", false));
-            Users.Add(new User("jking", "kingJ1234", "James", "King", "james.king@email.com", true));
-            Users.Add(new User("mross", "rossM2023", "Mary", "Ross", "mary.ross@email.com", true));
-            Users.Add(new User("twood", "woodT!", "Thomas", "Wood", "thomas.wood@email.com", false));
-
-            Users = new ObservableCollection<User>(Users.OrderBy(u => u.Username).OrderBy(u => u.State == false));
+            Users = new ObservableCollection<User>(_context.Users.ToList());
         }
 
         private void LoadTickets()
         {
-            Tickets.Add(new Ticket(1, DateTime.Now.AddHours(-2), DateTime.Now.AddHours(-1), "ABC-123", "Active"));
-            Tickets.Add(new Ticket(2, DateTime.Now.AddHours(-5), DateTime.Now.AddHours(-3), "DEF-456", "Active"));
-            Tickets.Add(new Ticket(3, DateTime.Now.AddHours(-1), DateTime.Now, "GHI-789", "Paid"));
-            Tickets.Add(new Ticket(4, DateTime.Now.AddDays(-1).AddHours(-4), DateTime.Now.AddDays(-1).AddHours(-2), "JKL-012", "Active"));
-            Tickets.Add(new Ticket(5, DateTime.Now.AddHours(-3), DateTime.MinValue, "MNO-345", "paid"));
-            Tickets.Add(new Ticket(6, DateTime.Now.AddDays(-2).AddHours(-6), DateTime.Now.AddDays(-2).AddHours(-5), "PQR-678", "Paid"));
-            Tickets.Add(new Ticket(7, DateTime.Now.AddHours(-7), DateTime.Now.AddHours(-6), "STU-901", "Active"));
-            Tickets.Add(new Ticket(8, DateTime.Now.AddDays(-3).AddHours(-10), DateTime.Now.AddDays(-3).AddHours(-8), "VWX-234", "Paid"));
-            Tickets.Add(new Ticket(9, DateTime.Now.AddHours(-4), DateTime.MinValue, "YZ-567", "paid"));
-            Tickets.Add(new Ticket(10, DateTime.Now.AddDays(-1).AddHours(-12), DateTime.Now.AddDays(-1).AddHours(-11), "BCD-890", "Paid"));
-
-            Tickets = new ObservableCollection<Ticket>(Tickets.Where(t => t.State == "Active").OrderBy(t => t.Id));
+            Tickets = new ObservableCollection<Ticket>(_context.Tickets);
         }
 
         private void LoadRates()
         {
-            HourlyRate = 5.00m;
-            HalfDayRate = 25.00m;
-            FullDayRate = 40.00m;
-            ProvincialTaxRate = 0.05m;
-            FederalTaxRate = 0.09975m;
+            HourlyRate = _context.Prices
+                .Where(p => p.PriceName == "Horraire")
+                .OrderBy(p => p.Id)
+                .Last().Price;
+
+            HalfDayRate = _context.Prices
+                .Where(p => p.PriceName == "Demi-Journée")
+                .OrderBy(p => p.Id)
+                .Last().Price;
+
+            FullDayRate = _context.Prices
+                .Where(p => p.PriceName == "Journée complète")
+                .OrderBy(p => p.Id)
+                .Last().Price;
+
+            ProvincialTaxRate = _context.OtherValues.FirstOrDefault()?.TPS ?? 0;
+            FederalTaxRate = _context.OtherValues.FirstOrDefault()?.TVQ ?? 0;
         }
 
         [RelayCommand]
-        private void AddUser()
+        private async Task AddUser()
         {
             var createUserWindow = new CreateUser();
             createUserWindow.Owner = Application.Current.MainWindow;
@@ -100,65 +92,158 @@ namespace Administration.ViewModels
             if (createUserWindow.ShowDialog() == true)
             {
                 var viewModel = (CreateUserVM)createUserWindow.DataContext;
+                User newUser = new User(viewModel.Username, PasswordHelper.HashPassword(viewModel.Password), viewModel.FirstName, viewModel.LastName, viewModel.Email, viewModel.State);
 
-                Users.Add(new User(viewModel.Username, viewModel.Password, viewModel.FirstName, viewModel.LastName, viewModel.Email, viewModel.State));
+                Logs userCreateLog = new Logs()
+                {
+                    Id = 0,
+                    EntryTime = DateTime.Now,
+                    Origin = "Création d'utilisateur",
+                    Description = $"Création de l'utilisateur \"{newUser.Username}\"",
+                };
+
+                _context.Users.Add(newUser);
+                _context.Logs.Add(userCreateLog);
+                await _context.SaveChangesAsync();
+                Users.Add(newUser);
             }
         }
 
 
         [RelayCommand]
-        private Task EditUser(User user)
+        private async Task EditUser(User user)
         {
-            return Task.CompletedTask;
+            User? modifiedUser = await _context.Users.FindAsync(user.Id);
+
+            if (modifiedUser == null)
+            {
+                Debug.WriteLine($"Error editing user with ID {user.Id}");
+                return;
+            }
+
+            modifiedUser.Username = user.Username;
+            modifiedUser.FirstName = user.FirstName;
+            modifiedUser.LastName = user.LastName;
+            modifiedUser.Email = user.Email;
+            modifiedUser.State = user.State;
+
+            // Visual update of the modified user
+            int index = Users.IndexOf(Users.FirstOrDefault(u => u.Id == user.Id));
+            if (index != -1)
+            {
+                Users[index] = modifiedUser;
+            }
+
+            Logs userModifiedLog = new Logs()
+            {
+                Id = 0,
+                EntryTime = DateTime.Now,
+                Origin = "Modification d'utilisateur",
+                Description = $"Modification de l'utilisateur \"{modifiedUser.Username}\"",
+            };
+
+            _context.Logs.Add(userModifiedLog);
+            await _context.SaveChangesAsync();
         }
 
         [RelayCommand]
-        private Task DeleteUser(User user)
+        private async Task DeleteUser(User user)
         {
             if (user != null)
             {
+                Logs userDeletedLog = new Logs()
+                {
+                    Id = 0,
+                    EntryTime = DateTime.Now,
+                    Origin = "Suppression d'utilisateur",
+                    Description = $"Suppression de l'utilisateur \"{user.Username}\"",
+                };
+
+                _context.Logs.Add(userDeletedLog);
+                _context.Users.Remove(user);
+                await _context.SaveChangesAsync();
                 Users.Remove(user);
             }
-            return Task.CompletedTask;
         }
 
         [RelayCommand]
-        private void DeleteTicket(Ticket ticket)
+        private async Task DeleteTicket(Ticket ticket)
         {
             if (ticket != null)
             {
+                Logs ticketDeletedLog = new Logs()
+                {
+                    Id = 0,
+                    EntryTime = DateTime.Now,
+                    Origin = "Suppression de billet",
+                    Description = $"Suppression du billet \"{ticket.Id}\"",
+                };
+
+                _context.Logs.Add(ticketDeletedLog);
+                _context.Tickets.Remove(ticket);
+                await _context.SaveChangesAsync();
                 Tickets.Remove(ticket);
             }
         }
 
-        [RelayCommand]
-        private Task UpdateHourlyRate()
+        private async Task UpdateRate(string priceName, double price)
         {
-            return Task.CompletedTask;
+            var newPrice = new Prices
+            {
+                SetPriceDate = DateTime.Now,
+                PriceName = priceName,
+                Price = price
+            };
+
+            _context.Prices.Add(newPrice);
+
+            await CreateLogAndSave("Tarifs", $"Modification du tarif \"{priceName}\" {price}$");
+        }
+
+        private async Task UpdateTaxRate(bool isProvincial, double rate)
+        {
+            var otherValues = await _context.OtherValues.FirstOrDefaultAsync() ?? new OtherValues();
+
+            if (isProvincial)
+                otherValues.TVQ = rate;
+            else
+                otherValues.TPS = rate;
+
+            if (otherValues.Id == 0)
+                _context.OtherValues.Add(otherValues);
+
+            string taxType = isProvincial ? "provinciale (TVQ)" : "fédérale (TPS)";
+            await CreateLogAndSave("Tarifs", $"Modification du taux de taxe {taxType} {rate}%");
+        }
+
+        private async Task CreateLogAndSave(string origin, string description)
+        {
+            var log = new Logs
+            {
+                Id = 0,
+                EntryTime = DateTime.Now,
+                Origin = origin,
+                Description = description
+            };
+
+            _context.Logs.Add(log);
+            await _context.SaveChangesAsync();
+            LoadRates();
         }
 
         [RelayCommand]
-        private Task UpdateHalfDayRate()
-        {
-            return Task.CompletedTask;
-        }
+        private Task UpdateHourlyRate() => UpdateRate("Horraire", HourlyRate);
 
         [RelayCommand]
-        private Task UpdateFullDayRate()
-        {
-            return Task.CompletedTask;
-        }
+        private Task UpdateHalfDayRate() => UpdateRate("Demi-Journée", HalfDayRate);
 
         [RelayCommand]
-        private Task UpdateProvincialTaxRate()
-        {
-            return Task.CompletedTask;
-        }
+        private Task UpdateFullDayRate() => UpdateRate("Journée complète", FullDayRate);
 
         [RelayCommand]
-        private Task UpdateFederalTaxRate()
-        {
-            return Task.CompletedTask;
-        }
+        private Task UpdateProvincialTaxRate() => UpdateTaxRate(true, ProvincialTaxRate);
+
+        [RelayCommand]
+        private Task UpdateFederalTaxRate() => UpdateTaxRate(false, FederalTaxRate);
     }
 }

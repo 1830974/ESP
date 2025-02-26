@@ -63,6 +63,17 @@ namespace Administration.ViewModels
                 return;
             }
 
+            Logs loginLog = new Logs()
+            {
+                Id = 0,
+                EntryTime = DateTime.Now,
+                Origin = "Login",
+                Description = $"Login de l'utilisateur \"{currentUser.Username}\" ID:{currentUser.Id}"
+            };
+
+            _context.Logs.Add(loginLog);
+            await _context.SaveChangesAsync();
+
             var home = _serviceProvider.GetRequiredService<Home>();
             home.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             home.Show();
