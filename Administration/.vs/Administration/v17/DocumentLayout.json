@@ -1,66 +1,90 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\",
+  "WorkspaceRootPath": "C:\\CCHIC\\ESP\\Git\\Administration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\models\\othervalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\othervalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\models\\prices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\prices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\models\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\createuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\createuser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\createuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\createuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\reportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\reportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\administration.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\administration.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\managementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\managementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\managementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\managementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\viewmodels\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\viewmodels\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\dashboardvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\users\\1830974\\desktop\\git 2\\administration\\administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\reportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\reportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\administration.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\administration.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,19 +94,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "OtherValues.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\OtherValues.cs",
+              "RelativeDocumentMoniker": "Administration\\Models\\OtherValues.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\OtherValues.cs",
+              "RelativeToolTip": "Administration\\Models\\OtherValues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T02:38:38.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Prices.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Prices.cs",
+              "RelativeDocumentMoniker": "Administration\\Models\\Prices.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Prices.cs",
+              "RelativeToolTip": "Administration\\Models\\Prices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T02:36:05.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateUser.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\CreateUser.xaml.cs",
+              "RelativeDocumentMoniker": "Administration\\Views\\CreateUser.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\CreateUser.xaml.cs",
+              "RelativeToolTip": "Administration\\Views\\CreateUser.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAvwCEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:34:43.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateUserVM.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\CreateUserVM.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\CreateUserVM.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T00:32:09.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "Administration\\Models\\Ticket.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Ticket.cs",
+              "RelativeToolTip": "Administration\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:40:28.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\LoginVM.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:15:22.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CreateUser.xaml",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\CreateUser.xaml",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\CreateUser.xaml",
               "RelativeDocumentMoniker": "Administration\\Views\\CreateUser.xaml",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\CreateUser.xaml",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\CreateUser.xaml",
               "RelativeToolTip": "Administration\\Views\\CreateUser.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-25T00:32:12.337Z",
@@ -90,34 +192,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "Administration",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Administration.csproj",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Administration.csproj",
               "RelativeDocumentMoniker": "Administration\\Administration.csproj",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Administration.csproj",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Administration.csproj",
               "RelativeToolTip": "Administration\\Administration.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-25T00:27:23.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Home.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\Home.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\Home.xaml.cs",
               "RelativeDocumentMoniker": "Administration\\Views\\Home.xaml.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\Home.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\Home.xaml.cs",
               "RelativeToolTip": "Administration\\Views\\Home.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwF8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T00:15:10.57Z"
+              "WhenOpened": "2025-02-25T00:15:10.57Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "ManagementPage.xaml",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ManagementPage.xaml",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ManagementPage.xaml",
               "RelativeDocumentMoniker": "Administration\\Views\\ManagementPage.xaml",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ManagementPage.xaml",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ManagementPage.xaml",
               "RelativeToolTip": "Administration\\Views\\ManagementPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-24T23:37:16.879Z",
@@ -125,24 +228,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateUserVM.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
-              "RelativeDocumentMoniker": "Administration\\ViewModels\\CreateUserVM.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\CreateUserVM.cs",
-              "RelativeToolTip": "Administration\\ViewModels\\CreateUserVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T00:32:09.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "ReportPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ReportPage.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ReportPage.xaml.cs",
               "RelativeDocumentMoniker": "Administration\\Views\\ReportPage.xaml.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ReportPage.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ReportPage.xaml.cs",
               "RelativeToolTip": "Administration\\Views\\ReportPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,35 +240,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "ReportPage.xaml",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ReportPage.xaml",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ReportPage.xaml",
               "RelativeDocumentMoniker": "Administration\\Views\\ReportPage.xaml",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ReportPage.xaml",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ReportPage.xaml",
               "RelativeToolTip": "Administration\\Views\\ReportPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-24T23:47:30.91Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ManagementVM.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
               "RelativeDocumentMoniker": "Administration\\ViewModels\\ManagementVM.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
               "RelativeToolTip": "Administration\\ViewModels\\ManagementVM.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAawCMAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T23:36:27.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Administration\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\AssemblyInfo.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\AssemblyInfo.cs",
               "RelativeToolTip": "Administration\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -186,73 +276,112 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ManagementPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ManagementPage.xaml.cs",
               "RelativeDocumentMoniker": "Administration\\Views\\ManagementPage.xaml.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\ManagementPage.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ManagementPage.xaml.cs",
               "RelativeToolTip": "Administration\\Views\\ManagementPage.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAvwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T23:37:58.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DashboardVM.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\DashboardVM.cs",
-              "RelativeDocumentMoniker": "Administration\\ViewModels\\DashboardVM.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\ViewModels\\DashboardVM.cs",
-              "RelativeToolTip": "Administration\\ViewModels\\DashboardVM.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAcwFMAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T22:10:20.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DashboardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\DashboardPage.xaml",
-              "RelativeDocumentMoniker": "Administration\\Views\\DashboardPage.xaml",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\DashboardPage.xaml",
-              "RelativeToolTip": "Administration\\Views\\DashboardPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-24T22:10:06.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Administration\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\App.xaml.cs",
-              "RelativeToolTip": "Administration\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T22:14:08.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.xaml",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\Home.xaml",
-              "RelativeDocumentMoniker": "Administration\\Views\\Home.xaml",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\Home.xaml",
-              "RelativeToolTip": "Administration\\Views\\Home.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-24T22:12:15.356Z"
+              "WhenOpened": "2025-02-24T23:37:58.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "DashboardVM.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\DashboardVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\DashboardVM.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\DashboardVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\DashboardVM.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAlwJMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T22:10:20.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "Administration\\Views\\DashboardPage.xaml",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\DashboardPage.xaml",
+              "RelativeToolTip": "Administration\\Views\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T22:10:06.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Administration\\App.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\App.xaml.cs",
+              "RelativeToolTip": "Administration\\App.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAywCcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T22:14:08.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\Home.xaml",
+              "RelativeDocumentMoniker": "Administration\\Views\\Home.xaml",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\Home.xaml",
+              "RelativeToolTip": "Administration\\Views\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-24T22:12:15.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "DashboardPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\DashboardPage.xaml.cs",
               "RelativeDocumentMoniker": "Administration\\Views\\DashboardPage.xaml.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git 2\\Administration\\Administration\\Views\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\DashboardPage.xaml.cs",
               "RelativeToolTip": "Administration\\Views\\DashboardPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T22:10:05.017Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "9b4b3298-e9d3-4300-91d1-76d51ecc8304",
+        "Display": 1,
+        "X": 142,
+        "Y": 156,
+        "Width": 2300,
+        "Height": 1068,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logs.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Logs.cs",
+              "RelativeDocumentMoniker": "Administration\\Models\\Logs.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Logs.cs",
+              "RelativeToolTip": "Administration\\Models\\Logs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:45:19.299Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -72,13 +72,14 @@ namespace API_CIUSSS_1830974.Controllers
             {
                 "entry" => "Borne d'entrée",
                 "exit" => "Borne de sortie",
-                "prices" => "tarifs",
+                "prices" => "Tarifs",
                 "usercreate" => "Création d'utilisateur",
                 "userupdate" => "Modification d'utilisateur",
                 "userdelete" => "Suppression d'utilisateur",
                 "ticketdelete" => "Suppression de billet",
                 "payment" => "Borne de paiement",
                 "reciept" => "Impression de reçu",
+                "Login" => "Login",
                 _ => string.Empty
             };
         }

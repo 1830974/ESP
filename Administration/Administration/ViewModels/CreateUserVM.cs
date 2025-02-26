@@ -54,17 +54,14 @@ namespace Administration.ViewModels
 
             password = passwordBox.Password;
 
-            // Validate input fields (you can add more validation logic here)
             if (string.IsNullOrWhiteSpace(Username) || string.IsNullOrWhiteSpace(password) ||
                 string.IsNullOrWhiteSpace(FirstName) || string.IsNullOrWhiteSpace(LastName) ||
                 string.IsNullOrWhiteSpace(Email))
             {
-                // Show an error message or return if validation fails
                 System.Windows.MessageBox.Show("Veuillez remplir tous les champs.", "Erreur", System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Warning);
                 return;
             }
 
-            // Create a new User object
             var newUser = new User
             {
                 Username = Username,
@@ -75,10 +72,7 @@ namespace Administration.ViewModels
                 State = State
             };
 
-            // Pass the created user back to the parent window via callback
             OnUserCreated?.Invoke(newUser, password);
-
-            // Close the window (handled by the parent window)
         }
 
         [RelayCommand]

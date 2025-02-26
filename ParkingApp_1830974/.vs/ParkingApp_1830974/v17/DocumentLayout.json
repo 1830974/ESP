@@ -1,49 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\",
+  "WorkspaceRootPath": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\data\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\data\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\viewmodels\\licenseplatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\viewmodels\\licenseplatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\viewmodels\\licenseplatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\views\\licenselist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\data\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\data\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\views\\licenselist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\views\\licenselist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\views\\licenselist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\views\\licenselist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\views\\licenselist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\views\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\views\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\views\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\users\\1830974\\desktop\\git\\esp_sln\\parkingapp_1830974\\parkingapp_1830974\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|c:\\cchic\\esp\\git\\parkingapp_1830974\\parkingapp_1830974\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{97F92E36-84A6-4C13-B8F9-E1E1D3DCF707}|ParkingApp_1830974\\ParkingApp_1830974.csproj|solutionrelative:parkingapp_1830974\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -54,19 +58,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "ParkingApp_1830974\\Models\\Ticket.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Models\\Ticket.cs",
+              "RelativeToolTip": "ParkingApp_1830974\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:40:38.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LicenseList.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\LicenseList.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\LicenseList.xaml.cs",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\Views\\LicenseList.xaml.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\LicenseList.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\LicenseList.xaml.cs",
               "RelativeToolTip": "ParkingApp_1830974\\Views\\LicenseList.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,11 +91,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ApiHelper.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Data\\ApiHelper.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Data\\ApiHelper.cs",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\Data\\ApiHelper.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Data\\ApiHelper.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Data\\ApiHelper.cs",
               "RelativeToolTip": "ParkingApp_1830974\\Data\\ApiHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,21 +106,22 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LicensePlateVM.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\ViewModels\\LicensePlateVM.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\ViewModels\\LicensePlateVM.cs",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\ViewModels\\LicensePlateVM.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\ViewModels\\LicensePlateVM.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\ViewModels\\LicensePlateVM.cs",
               "RelativeToolTip": "ParkingApp_1830974\\ViewModels\\LicensePlateVM.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA1wCQAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T21:27:02.643Z"
+              "WhenOpened": "2025-02-22T21:27:02.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Home.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Home.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Home.xaml.cs",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\Views\\Home.xaml.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Home.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Home.xaml.cs",
               "RelativeToolTip": "ParkingApp_1830974\\Views\\Home.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -111,33 +129,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LicenseList.xaml",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\LicenseList.xaml",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\LicenseList.xaml",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\Views\\LicenseList.xaml",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\LicenseList.xaml",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\LicenseList.xaml",
               "RelativeToolTip": "ParkingApp_1830974\\Views\\LicenseList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-24T13:21:53.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Home.xaml",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Home.xaml",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Home.xaml",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\Views\\Home.xaml",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Home.xaml",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Home.xaml",
               "RelativeToolTip": "ParkingApp_1830974\\Views\\Home.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-24T13:21:44.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Models\\User.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Models\\User.cs",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Models\\User.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Models\\User.cs",
               "RelativeToolTip": "ParkingApp_1830974\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,11 +163,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\App.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\App.xaml.cs",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\App.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\App.xaml.cs",
               "RelativeToolTip": "ParkingApp_1830974\\App.xaml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Login.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Login.xaml.cs",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\Views\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Login.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Login.xaml.cs",
               "RelativeToolTip": "ParkingApp_1830974\\Views\\Login.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,11 +187,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\ViewModels\\LoginVM.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\ViewModels\\LoginVM.cs",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\ViewModels\\LoginVM.cs",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\ViewModels\\LoginVM.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\ViewModels\\LoginVM.cs",
               "RelativeToolTip": "ParkingApp_1830974\\ViewModels\\LoginVM.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAQwEkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -181,11 +199,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Login.xaml",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Login.xaml",
               "RelativeDocumentMoniker": "ParkingApp_1830974\\Views\\Login.xaml",
-              "ToolTip": "C:\\Users\\1830974\\Desktop\\Git\\ESP_sln\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Login.xaml",
+              "ToolTip": "C:\\CCHIC\\ESP\\Git\\ParkingApp_1830974\\ParkingApp_1830974\\Views\\Login.xaml",
               "RelativeToolTip": "ParkingApp_1830974\\Views\\Login.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-08T18:53:16.382Z"

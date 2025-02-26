@@ -22,11 +22,13 @@ namespace Administration.Views
     /// </summary>
     public partial class ManagementPage : Page, ILanguageRefresher
     {
-        private int _selectedTabIndex;
-        public ManagementPage()
+        private readonly ManagementVM _managementVM;
+
+        public ManagementPage(ManagementVM managementVM)
         {
             InitializeComponent();
-            this.DataContext = new ManagementVM();
+            _managementVM = managementVM;
+            this.DataContext = _managementVM;
         }
 
         public async Task RefreshLanguage()
