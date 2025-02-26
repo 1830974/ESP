@@ -36,8 +36,6 @@ namespace Sortie_1830974.ViewModels
         [RelayCommand]
         private async Task VerifyScannedTicket(int ticketId)
         {
-            Console.WriteLine(_apiKey.ToString());
-
             if (_isProcessing) return;
 
             _isProcessing = true;

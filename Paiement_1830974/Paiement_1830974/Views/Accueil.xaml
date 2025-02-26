@@ -1,4 +1,4 @@
-﻿<Window x:Class="Paiement_1830974.Views.Accueil"
+﻿<Page x:Class="Paiement_1830974.Views.Accueil"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -13,9 +13,8 @@
         TextOptions.TextRenderingMode="Auto"        
         Background="#E3F2FD"
         FontFamily="{DynamicResource MaterialDesignFont}"
-        d:DesignHeight="600" d:DesignWidth="1024"
-        Title="Home" Height="600" Width="1024"
-        WindowState="Maximized">
+        Title="Accueil"
+        PreviewKeyDown="Window_PreviewKeyDown">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -23,21 +22,8 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <materialDesign:ColorZone Mode="Custom" Padding="16" Background="#1976D2">
-            <Grid>
-                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
-                           FontSize="32" Foreground="White" FontWeight="Bold">
-                    Borne de paiement
-                </TextBlock>
-                <Button Style="{StaticResource MaterialDesignFlatButton}" 
-                        Content="FR" HorizontalAlignment="Right"
-                        FontSize="20" Foreground="White"
-                        materialDesign:ElevationAssist.Elevation="Dp3"/>
-            </Grid>
-        </materialDesign:ColorZone>
-
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Veuillez scanner votre ticket" FontSize="28" Margin="0,0,0,40" 
+            <TextBlock Text="Veuillez scanner votre ticket" FontSize="28" Margin="10, 20" 
                        HorizontalAlignment="Center" Foreground="#1976D2"/>
 
             <Border Width="400" Height="200" 
@@ -52,9 +38,9 @@
             </Border>
 
             <TextBlock Text="Passez le code-barres de votre ticket sous le scanner" 
-                       FontSize="20" Margin="0,40,0,0" HorizontalAlignment="Center" 
+                       FontSize="20" Margin="10,20" HorizontalAlignment="Center" 
                        TextWrapping="Wrap" TextAlignment="Center" Foreground="#1976D2"
                        MaxWidth="500"/>
         </StackPanel>
     </Grid>
-</Window>
+</Page>

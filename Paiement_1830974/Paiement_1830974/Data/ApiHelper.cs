@@ -5,9 +5,9 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Sortie_1830974.Models;
+using Paiement_1830974.Models;
 
-namespace Sortie_1830974.Data
+namespace Paiement_1830974.Data
 {
     public static class ApiHelper
     {
@@ -28,8 +28,8 @@ namespace Sortie_1830974.Data
                 var content = await response.Content.ReadAsStringAsync();
                 var ticket = JsonConvert.DeserializeObject<Ticket>(content);
 
-                if (ticket != null && ticket.State != "Payé")
-                    return (ticket, $"Ticket with ID \"{ticketId}\" is unpaid");
+                if (ticket != null && ticket.State == "Payé")
+                    return (ticket, $"Ticket with ID \"{ticketId}\" is already paid");
 
                 return (ticket, null);
             }

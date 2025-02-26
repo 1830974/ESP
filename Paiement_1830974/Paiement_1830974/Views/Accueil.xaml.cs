@@ -4,24 +4,62 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using System.Windows.Threading;
+using Paiement_1830974.ViewModels;
+using System.Windows.Controls;
 
 namespace Paiement_1830974.Views
 {
     /// <summary>
     /// Logique d'interaction pour Accueil.xaml
     /// </summary>
-    public partial class Accueil : Window
+    public partial class Accueil : Page
     {
-        public Accueil()
+        private string barcodeBuffer = string.Empty;
+        private DispatcherTimer barcodeTimer;
+
+        public Accueil(AccueilVM acceuilVM)
         {
             InitializeComponent();
+            this.DataContext = acceuilVM;
+
+            barcodeTimer = new DispatcherTimer();
+            barcodeTimer.Interval = TimeSpan.FromMilliseconds(50);
+            barcodeTimer.Tick += BarcodeTimer_Tick;
+        }
+
+        private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                ProcessBarcode();
+            }
+            else
+            {
+                barcodeBuffer += e.Key.ToString();
+                barcodeTimer.Stop();
+                barcodeTimer.Start();
+            }
+            e.Handled = true;
+        }
+
+        private void BarcodeTimer_Tick(object sender, EventArgs e)
+        {
+            barcodeTimer.Stop();
+            ProcessBarcode();
+        }
+
+        private void ProcessBarcode()
+        {
+            if (!string.IsNullOrEmpty(barcodeBuffer))
+            {
+                var viewModel = DataContext as AccueilVM;
+                string trimmedBuffer = barcodeBuffer.Replace("D", "");
+                int.TryParse(trimmedBuffer, out int ticketId);
+                viewModel?.FetchScannedTicketCommand.Execute(ticketId);
+                barcodeBuffer = string.Empty;
+            }
         }
     }
 }
