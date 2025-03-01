@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Paiement_1830974.Models;
 using Paiement_1830974.Data;
 using Paiement_1830974.Views;
+using Paiement_1830974.Resources;
 
 
 namespace Paiement_1830974.ViewModels
@@ -16,6 +17,7 @@ namespace Paiement_1830974.ViewModels
     public partial class AccueilVM : ObservableObject
     {
         private readonly string _apiKey;
+        private readonly INavigationService _navigationService;
         private string defaultUpperMessage = "Veuillez scanner votre ticket";
         private string defaulLowerMessage = "Passez le code-barres de votre ticket sous le scanner";
 
@@ -28,11 +30,12 @@ namespace Paiement_1830974.ViewModels
 
         }
 
-        public AccueilVM(IConfiguration configuration) : this()
+        public AccueilVM(IConfiguration configuration, INavigationService navigationService) : this()
         {
             _apiKey = configuration["ApiKey"];
             UpperDisplayMessage = defaultUpperMessage;
             LowerDisplayMessage = defaulLowerMessage;
+            _navigationService = navigationService;
         }
 
         [RelayCommand]
@@ -48,6 +51,9 @@ namespace Paiement_1830974.ViewModels
                     await Task.Delay(10000);
                     return;
                 }
+
+                TicketHolder.CurrentTicket = ticket;
+                _navigationService.NavigateTo<AmmountVM>();
             }
             catch (Exception ex)
             {

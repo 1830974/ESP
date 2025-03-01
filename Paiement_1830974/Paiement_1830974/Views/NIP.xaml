@@ -9,25 +9,7 @@
       d:DesignHeight="600" d:DesignWidth="1024">
 
     <Grid Background="#E3F2FD">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <materialDesign:ColorZone Mode="Custom" Padding="16" Background="#1976D2">
-            <Grid>
-                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
-                           FontSize="32" Foreground="White" FontWeight="Bold">
-                    Borne de paiement
-                </TextBlock>
-                <Button Style="{StaticResource MaterialDesignFlatButton}" 
-                        Content="FR" HorizontalAlignment="Right"
-                        FontSize="20" Foreground="White"
-                        materialDesign:ElevationAssist.Elevation="Dp3"/>
-            </Grid>
-        </materialDesign:ColorZone>
-
-        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
             <TextBlock Text="Entrer votre NIP" FontSize="48" Margin="0,0,0,60" 
                        HorizontalAlignment="Center" Foreground="#1976D2"/>
 

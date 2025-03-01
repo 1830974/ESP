@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Microsoft.Extensions.DependencyInjection;
+using Paiement_1830974.Resources;
 using Paiement_1830974.ViewModels;
 
 namespace Paiement_1830974.Views
@@ -22,18 +23,15 @@ namespace Paiement_1830974.Views
     /// </summary>
     public partial class Home : Window
     {
-        private readonly IServiceProvider _serviceProvider;
-        public event PropertyChangedEventHandler PropertyChanged;
+        private readonly INavigationService _navigationService;
 
-        public Home(AccueilVM accueilVM, IServiceProvider serviceProvider)
+        public Home(INavigationService navigationService)
         {
             InitializeComponent();
-            this.DataContext = this;
+            _navigationService = navigationService;
+            (_navigationService as NavigationService)?.SetFrame(MainFrame);
 
-            _serviceProvider = serviceProvider;
-            var accueil = _serviceProvider.GetRequiredService<Accueil>();
-
-            MainFrame.Navigate(accueil);
+            _navigationService.NavigateTo<AccueilVM>();
         }
     }
 }

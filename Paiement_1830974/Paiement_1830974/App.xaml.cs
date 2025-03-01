@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Paiement_1830974.Views;
 using Paiement_1830974.ViewModels;
+using Paiement_1830974.Resources;
 
 namespace Paiement_1830974
 {
@@ -29,14 +30,23 @@ namespace Paiement_1830974
             var services = new ServiceCollection();
 
             services.AddSingleton<IConfiguration>(configuration);
+            services.AddSingleton<INavigationService, NavigationService>();
 
             services.AddTransient<AccueilVM>(provider =>
             new AccueilVM(
-                provider.GetRequiredService<IConfiguration>())
+                provider.GetRequiredService<IConfiguration>(),
+                provider.GetRequiredService<INavigationService>())
             );
 
-            services.AddTransient<Accueil>();
+            services.AddTransient<AmmountVM>(provider =>
+            new AmmountVM(
+                provider.GetRequiredService<IConfiguration>(),
+                provider.GetRequiredService<INavigationService>())
+            );
+
             services.AddTransient<Home>();
+            services.AddTransient<Accueil>();
+            services.AddTransient<Ammount>();
 
             var serviceProvider = services.BuildServiceProvider();
             ServiceProvider = serviceProvider;

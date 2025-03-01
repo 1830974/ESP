@@ -1,33 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\",
+  "WorkspaceRootPath": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|p:\\info\\hiver-2025\\esp\\git\\api_ciusss_1830974\\api_ciusss_1830974\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|p:\\info\\hiver-2025\\esp\\git\\api_ciusss_1830974\\api_ciusss_1830974\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\pricescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\pricescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|p:\\info\\hiver-2025\\esp\\git\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|p:\\info\\hiver-2025\\esp\\git\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|p:\\info\\hiver-2025\\esp\\git\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\recieptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\recieptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\recieptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|p:\\info\\hiver-2025\\esp\\git\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|p:\\info\\hiver-2025\\esp\\git\\api_ciusss_1830974\\api_ciusss_1830974\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|c:\\users\\utilisateur\\desktop\\git_esp\\api_ciusss_1830974\\api_ciusss_1830974\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{233DA820-A9A8-40FE-B936-E3B0E8434F25}|API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj|solutionrelative:api_ciusss_1830974\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -38,40 +50,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 256,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Program.cs",
+              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Program.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Program.cs",
+              "RelativeToolTip": "API_CIUSSS_1830974\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T01:40:29.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.json",
+              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\appsettings.json",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.json",
+              "RelativeToolTip": "API_CIUSSS_1830974\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-01T01:40:24.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PricesController.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\PricesController.cs",
+              "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\PricesController.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\PricesController.cs",
+              "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\PricesController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAIwC4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T00:58:36.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Ticket.cs",
-              "DocumentMoniker": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\Ticket.cs",
-              "ToolTip": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Ticket.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T22:40:52.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Reciept.cs",
-              "DocumentMoniker": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Reciept.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Reciept.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Models\\Reciept.cs",
-              "ToolTip": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Reciept.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Models\\Reciept.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Models\\Reciept.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T14:10:06.048Z"
+              "WhenOpened": "2025-02-24T14:10:06.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "TicketController.cs",
-              "DocumentMoniker": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\TicketController.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\TicketController.cs",
-              "ToolTip": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\TicketController.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\TicketController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,11 +135,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "LogsController.cs",
-              "DocumentMoniker": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\LogsController.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\LogsController.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\LogsController.cs",
-              "ToolTip": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\LogsController.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\LogsController.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\LogsController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAowEoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,11 +147,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ParkingController.cs",
-              "DocumentMoniker": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
-              "ToolTip": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\ParkingController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,11 +159,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "RecieptController.cs",
-              "DocumentMoniker": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
-              "ToolTip": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
               "RelativeToolTip": "API_CIUSSS_1830974\\Controllers\\RecieptController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -115,11 +171,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.Development.json",
               "RelativeDocumentMoniker": "API_CIUSSS_1830974\\appsettings.Development.json",
-              "ToolTip": "P:\\Info\\Hiver-2025\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Utilisateur\\Desktop\\Git_ESP\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\appsettings.Development.json",
               "RelativeToolTip": "API_CIUSSS_1830974\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",

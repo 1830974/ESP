@@ -42,5 +42,30 @@ namespace Paiement_1830974.Data
                     return (null, $"Unexpected error: {response.StatusCode}");
             }
         }
+
+        // TODO: Complete
+        public static async Task<IEnumerable<Prices>> GetPricesForTicket(Ticket ticket, string apiKey)
+        {
+            string formattedDate = ticket.ArrivalTime.ToString("yyyy-MM-dd");
+            string url = $"{ApiBaseUrl}/Prices/DatePrice?start={formattedDate}";
+
+            _httpClient.DefaultRequestHeaders.Clear();
+            _httpClient.DefaultRequestHeaders.Add("X-API-Key", apiKey);
+
+            var response = await _httpClient.GetAsync(url);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                IEnumerable<Prices> prices = JsonConvert.DeserializeObject<IEnumerable<Prices>>(content);
+
+                if (prices == null)
+                    return new List<Prices>();
+
+                return prices;
+            }
+
+            return new List<Prices>();
+        }
     }
 }

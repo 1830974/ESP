@@ -16,28 +16,7 @@
       d:DesignHeight="600" d:DesignWidth="1024">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <!-- Header -->
-        <materialDesign:ColorZone Mode="Custom" Padding="16" Background="#1976D2">
-            <Grid>
-                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
-                           FontSize="32" Foreground="White" FontWeight="Bold">
-                    Borne de paiement
-                </TextBlock>
-                <Button Style="{StaticResource MaterialDesignFlatButton}" 
-                        Content="FR" HorizontalAlignment="Right"
-                        FontSize="20" Foreground="White"
-                        materialDesign:ElevationAssist.Elevation="Dp3"/>
-            </Grid>
-        </materialDesign:ColorZone>
-
-        <!-- Content -->
-        <TextBlock Grid.Row="1" 
-                   Text="En attente de confirmation..." 
+        <TextBlock Text="En attente de confirmation..." 
                    FontSize="36" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 

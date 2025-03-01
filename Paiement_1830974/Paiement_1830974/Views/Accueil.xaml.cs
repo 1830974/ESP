@@ -27,6 +27,13 @@ namespace Paiement_1830974.Views
             barcodeTimer = new DispatcherTimer();
             barcodeTimer.Interval = TimeSpan.FromMilliseconds(50);
             barcodeTimer.Tick += BarcodeTimer_Tick;
+
+            if (Application.Current.MainWindow != null)
+            {
+                Application.Current.MainWindow.PreviewKeyDown += Window_PreviewKeyDown;
+            }
+
+            this.Loaded += (s, e) => Keyboard.Focus(this);
         }
 
         private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
@@ -59,6 +66,14 @@ namespace Paiement_1830974.Views
                 int.TryParse(trimmedBuffer, out int ticketId);
                 viewModel?.FetchScannedTicketCommand.Execute(ticketId);
                 barcodeBuffer = string.Empty;
+            }
+        }
+
+        private void Accueil_Unloaded(object sender, RoutedEventArgs e)
+        {
+            if (Application.Current.MainWindow != null)
+            {
+                Application.Current.MainWindow.PreviewKeyDown -= Window_PreviewKeyDown;
             }
         }
     }
