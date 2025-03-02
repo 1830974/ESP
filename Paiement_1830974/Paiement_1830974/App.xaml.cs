@@ -44,9 +44,15 @@ namespace Paiement_1830974
                 provider.GetRequiredService<INavigationService>())
             );
 
+            services.AddTransient<NIPVM>(provider =>
+            new NIPVM(
+                provider.GetRequiredService<IConfiguration>(),
+                provider.GetRequiredService<INavigationService>())
+            );
             services.AddTransient<Home>();
             services.AddTransient<Accueil>();
             services.AddTransient<Ammount>();
+            services.AddTransient<NIP>();
 
             var serviceProvider = services.BuildServiceProvider();
             ServiceProvider = serviceProvider;

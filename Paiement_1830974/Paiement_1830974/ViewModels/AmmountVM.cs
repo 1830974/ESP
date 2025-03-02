@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Paiement_1830974.Resources;
 using Paiement_1830974.Models;
 using Paiement_1830974.Data;
+using CommunityToolkit.Mvvm.Input;
 
 namespace Paiement_1830974.ViewModels
 {
@@ -37,6 +38,10 @@ namespace Paiement_1830974.ViewModels
             double calculatedPrice = await CalculateTicketPrice();
             Ammount = calculatedPrice.ToString("C2");
         }
+
+        [RelayCommand]
+        private void DebitCreditRedirection()
+            => _navigationService.NavigateTo<NIPVM>();
 
         private async Task<double> CalculateTicketPrice()
         {
