@@ -1,9 +1,10 @@
-﻿<Page x:Class="Paiement_1830974.Views.PIN"
+﻿<Page x:Class="Paiement_1830974.Views.NIP"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Paiement_1830974"
+      xmlns:resources="clr-namespace:Paiement_1830974.Resources"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="1024">
@@ -14,13 +15,16 @@
                        HorizontalAlignment="Center" Foreground="#1976D2"/>
 
             <PasswordBox x:Name="PinPasswordBox"
+                         resources:PasswordHelper.BoundNip="{Binding Nip, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                          Style="{StaticResource MaterialDesignFilledPasswordBox}"
                          PasswordChar="●"
                          materialDesign:HintAssist.Hint="NIP"
                          FontSize="32"
                          Width="400"
                          Margin="0,0,0,80"
-                         Height="80"/>
+                         Height="80"
+                         MaxLength="4"
+                         Loaded="PinPasswordBox_Loaded"/>
 
             <Button Content="Confirmer" 
                     Style="{StaticResource MaterialDesignRaisedButton}"
@@ -28,7 +32,8 @@
                     FontSize="28" 
                     Background="#1976D2" 
                     Foreground="White"
-                    Padding="15"/>
+                    Padding="15"
+                    Command="{Binding ConfirmCommand}"/>
         </StackPanel>
     </Grid>
 </Page>

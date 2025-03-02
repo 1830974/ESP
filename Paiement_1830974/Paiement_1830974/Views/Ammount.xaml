@@ -29,12 +29,21 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button Content="Carte (Debit/Credit)" Style="{StaticResource MaterialDesignRaisedButton}"
                 Height="100" Width="250" FontSize="20" Margin="10"
-                Background="Green" Foreground="White"/>
+                Background="Green" Foreground="White" Command="{Binding DebitCreditRedirectionCommand}"/>
                 <Button Content="Espèces" Style="{StaticResource MaterialDesignRaisedButton}"
                 Height="100" Width="250" FontSize="20" Margin="10"
                 Background="DarkGoldenrod" Foreground="White"/>
             </StackPanel>
         </StackPanel>
-        <ProgressBar x:Name="LoadingIndicator" IsIndeterminate="True" Visibility="Collapsed" />
+        <ProgressBar x:Name="LoadingIndicator" 
+             IsIndeterminate="True" 
+             Visibility="Collapsed"
+             Width="300"
+             Height="10"
+             HorizontalAlignment="Center"
+             VerticalAlignment="Center"
+             Margin="0,20,0,0"
+             Background="#E3F2FD"
+             Foreground="#1976D2" />
     </Grid>
 </Page>
