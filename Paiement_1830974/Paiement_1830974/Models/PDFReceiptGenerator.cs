@@ -100,6 +100,8 @@ namespace Paiement_1830974.Models
                     formattedDuration += $"{days} jour{(days > 1 ? "s" : "")}, ";
                     formattedDuration += $"{stayDuration.Hours:D2}:{stayDuration.Minutes:D2}:{stayDuration.Seconds:D2}";
 
+                    AddTableCell("Durée du séjour:", formattedDuration);
+
                     AddTableCell("Montant de base:", $"{PaymentHolder.BaseAmount:N2} $");
                     AddTableCell("TPS:", $"{PaymentHolder.TPS:N2} $");
                     AddTableCell("TVQ:", $"{PaymentHolder.TVQ:N2} $");
