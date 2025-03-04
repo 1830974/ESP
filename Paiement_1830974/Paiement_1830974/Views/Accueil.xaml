@@ -14,7 +14,7 @@
         Background="#E3F2FD"
         FontFamily="{DynamicResource MaterialDesignFont}"
         Title="Accueil"
-        PreviewKeyDown="Window_PreviewKeyDown">
+        Unloaded="Accueil_Unloaded">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -23,7 +23,7 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Veuillez scanner votre ticket" FontSize="28" Margin="10, 20" 
+            <TextBlock Text="{Binding UpperDisplayMessage}" FontSize="28" Margin="10, 20" 
                        HorizontalAlignment="Center" Foreground="#1976D2"/>
 
             <Border Width="400" Height="200" 
@@ -37,7 +37,7 @@
                 </Grid>
             </Border>
 
-            <TextBlock Text="Passez le code-barres de votre ticket sous le scanner" 
+            <TextBlock Text="{Binding LowerDisplayMessage}" 
                        FontSize="20" Margin="10,20" HorizontalAlignment="Center" 
                        TextWrapping="Wrap" TextAlignment="Center" Foreground="#1976D2"
                        MaxWidth="500"/>

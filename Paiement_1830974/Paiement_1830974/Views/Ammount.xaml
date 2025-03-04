@@ -14,31 +14,13 @@
         Background="#E3F2FD"
         FontFamily="{DynamicResource MaterialDesignFont}"
         d:DesignHeight="600" d:DesignWidth="1024">
-    
+
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <materialDesign:ColorZone Mode="Custom" Padding="16" Background="#1976D2">
-            <Grid>
-                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
-                           FontSize="32" Foreground="White" FontWeight="Bold">
-                    Borne de paiement
-                </TextBlock>
-                <Button Style="{StaticResource MaterialDesignFlatButton}" 
-                        Content="FR" HorizontalAlignment="Right"
-                        FontSize="20" Foreground="White"
-                        materialDesign:ElevationAssist.Elevation="Dp3"/>
-            </Grid>
-        </materialDesign:ColorZone>
-
-        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
             <TextBlock Text="Montant dû:" FontSize="28" Margin="0,0,0,20" 
                        HorizontalAlignment="Center" Foreground="#1976D2"/>
 
-            <TextBlock Text="50,00 $" FontSize="48" Margin="0,0,0,40" 
+            <TextBlock Text="{Binding Ammount}" FontSize="48" Margin="0,0,0,40" 
                        HorizontalAlignment="Center" Foreground="#1976D2" FontWeight="Bold"/>
 
             <TextBlock Text="Choisissez votre mode de paiement:" FontSize="24" Margin="0,0,0,20" 
@@ -47,11 +29,21 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button Content="Carte (Debit/Credit)" Style="{StaticResource MaterialDesignRaisedButton}"
                 Height="100" Width="250" FontSize="20" Margin="10"
-                Background="Green" Foreground="White"/>
+                Background="Green" Foreground="White" Command="{Binding DebitCreditRedirectionCommand}"/>
                 <Button Content="Espèces" Style="{StaticResource MaterialDesignRaisedButton}"
                 Height="100" Width="250" FontSize="20" Margin="10"
                 Background="DarkGoldenrod" Foreground="White"/>
             </StackPanel>
         </StackPanel>
+        <ProgressBar x:Name="LoadingIndicator" 
+             IsIndeterminate="True" 
+             Visibility="Collapsed"
+             Width="300"
+             Height="10"
+             HorizontalAlignment="Center"
+             VerticalAlignment="Center"
+             Margin="0,20,0,0"
+             Background="#E3F2FD"
+             Foreground="#1976D2" />
     </Grid>
 </Page>

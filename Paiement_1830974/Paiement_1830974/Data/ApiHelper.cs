@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -41,6 +42,48 @@ namespace Paiement_1830974.Data
                 default:
                     return (null, $"Unexpected error: {response.StatusCode}");
             }
+        }
+
+        public static async Task<IEnumerable<Prices>> GetPricesForTicket(Ticket ticket, string apiKey)
+        {
+            string formattedDate = ticket.ArrivalTime.ToString("yyyy-MM-dd");
+            string url = $"{ApiBaseUrl}/Prices/DatePrice?start={formattedDate}";
+
+            _httpClient.DefaultRequestHeaders.Clear();
+            _httpClient.DefaultRequestHeaders.Add("X-API-Key", apiKey);
+
+            var response = await _httpClient.GetAsync(url);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                IEnumerable<Prices> prices = JsonConvert.DeserializeObject<IEnumerable<Prices>>(content);
+
+                if (prices == null)
+                    return new List<Prices>();
+
+                return prices;
+            }
+
+            return new List<Prices>();
+        }
+
+        public static async Task<string?> PayTicket(int ticketId, string apiKey)
+        {
+            string url = $"{ApiBaseUrl}/Ticket/PayTicket?ticketId={ticketId}";
+
+            using var request = new HttpRequestMessage(HttpMethod.Put, url);
+            request.Headers.Add("X-API-Key", apiKey);
+
+            var response = await _httpClient.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                return content;
+            }
+
+            return null;
         }
     }
 }

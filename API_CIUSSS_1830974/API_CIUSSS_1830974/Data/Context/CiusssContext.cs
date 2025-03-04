@@ -12,6 +12,7 @@ namespace API_CIUSSS_1830974.Data.Context
         public DbSet<Ticket> Tickets { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<OtherValues> OtherValues { get; set; }
+        public DbSet<RevenueByType> RevenueByTypes { get; set; }
 
         public CiusssContext(DbContextOptions<CiusssContext> options) : base(options) { }
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Paiement_1830974.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,10 @@ namespace Paiement_1830974.Views
     /// </summary>
     public partial class Reciept : Page
     {
-        public Reciept()
+        public Reciept(RecieptVM recieptVM)
         {
             InitializeComponent();
+            this.DataContext = recieptVM;
         }
     }
 }

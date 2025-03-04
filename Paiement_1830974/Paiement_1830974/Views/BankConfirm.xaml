@@ -4,6 +4,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:local="clr-namespace:Paiement_1830974"
+      xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
       mc:Ignorable="d"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -15,29 +16,14 @@
       FontFamily="{DynamicResource MaterialDesignFont}"
       d:DesignHeight="600" d:DesignWidth="1024">
 
+    <b:Interaction.Triggers>
+        <b:EventTrigger EventName="Loaded">
+            <b:InvokeCommandAction Command="{Binding RedirectToRecieptCommand}"/>
+        </b:EventTrigger>
+    </b:Interaction.Triggers>
+
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <!-- Header -->
-        <materialDesign:ColorZone Mode="Custom" Padding="16" Background="#1976D2">
-            <Grid>
-                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
-                           FontSize="32" Foreground="White" FontWeight="Bold">
-                    Borne de paiement
-                </TextBlock>
-                <Button Style="{StaticResource MaterialDesignFlatButton}" 
-                        Content="FR" HorizontalAlignment="Right"
-                        FontSize="20" Foreground="White"
-                        materialDesign:ElevationAssist.Elevation="Dp3"/>
-            </Grid>
-        </materialDesign:ColorZone>
-
-        <!-- Content -->
-        <TextBlock Grid.Row="1" 
-                   Text="En attente de confirmation..." 
+        <TextBlock Text="{Binding LoadingMessage}" 
                    FontSize="36" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 

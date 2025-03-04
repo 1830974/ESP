@@ -124,6 +124,29 @@ namespace API_CIUSSS_1830974.Migrations
                     b.ToTable("Reciepts");
                 });
 
+            modelBuilder.Entity("API_CIUSSS_1830974.Models.RevenueByType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<double>("FullDay")
+                        .HasColumnType("double");
+
+                    b.Property<double>("HalfDay")
+                        .HasColumnType("double");
+
+                    b.Property<double>("Hourly")
+                        .HasColumnType("double");
+
+                    b.Property<DateTime>("Week")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RevenueByTypes");
+                });
+
             modelBuilder.Entity("API_CIUSSS_1830974.Models.Ticket", b =>
                 {
                     b.Property<int>("Id")
