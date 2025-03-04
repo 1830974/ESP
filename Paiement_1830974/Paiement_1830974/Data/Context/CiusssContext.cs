@@ -13,6 +13,8 @@ namespace Paiement_1830974.Data.Context
     {
         public DbSet<Logs> Logs { get; set; }
         public DbSet<RevenueByType> RevenueByTypes { get; set; }
+        public DbSet<OtherValues> OtherValues { get; set; }
+        public DbSet<Reciept> Reciepts { get; set; }
 
         public CiusssContext(DbContextOptions<CiusssContext> options) : base(options) { }
     }

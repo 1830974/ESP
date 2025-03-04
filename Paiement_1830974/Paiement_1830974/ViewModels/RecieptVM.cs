@@ -1,5 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using Microsoft.Extensions.Configuration;
+using Paiement_1830974.Models;
 using Paiement_1830974.Resources;
 using System;
 using System.Collections.Generic;
@@ -21,5 +23,16 @@ namespace Paiement_1830974.ViewModels
             _navigationService = navigationService;
             PrintMessage = "Imprimer un reçu ?";
         }
+
+        [RelayCommand]
+        private void PrintReceipt()
+        {
+            PDFReceiptGenerator.GeneratePDFReceipt("LatestReceipt.pdf");
+            _navigationService.NavigateTo<AccueilVM>();
+        }
+
+        [RelayCommand]
+        private void RedirectHome()
+            => _navigationService.NavigateTo<AccueilVM>();
     }
 }
