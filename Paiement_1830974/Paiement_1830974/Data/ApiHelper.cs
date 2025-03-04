@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -43,7 +44,6 @@ namespace Paiement_1830974.Data
             }
         }
 
-        // TODO: Complete
         public static async Task<IEnumerable<Prices>> GetPricesForTicket(Ticket ticket, string apiKey)
         {
             string formattedDate = ticket.ArrivalTime.ToString("yyyy-MM-dd");
@@ -66,6 +66,24 @@ namespace Paiement_1830974.Data
             }
 
             return new List<Prices>();
+        }
+
+        public static async Task<string?> PayTicket(int ticketId, string apiKey)
+        {
+            string url = $"{ApiBaseUrl}/Ticket/PayTicket?ticketId={ticketId}";
+
+            using var request = new HttpRequestMessage(HttpMethod.Put, url);
+            request.Headers.Add("X-API-Key", apiKey);
+
+            var response = await _httpClient.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                return content;
+            }
+
+            return null;
         }
     }
 }

@@ -4,6 +4,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:local="clr-namespace:Paiement_1830974"
+      xmlns:b="http://schemas.microsoft.com/xaml/behaviors"
       mc:Ignorable="d"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -15,8 +16,14 @@
       FontFamily="{DynamicResource MaterialDesignFont}"
       d:DesignHeight="600" d:DesignWidth="1024">
 
+    <b:Interaction.Triggers>
+        <b:EventTrigger EventName="Loaded">
+            <b:InvokeCommandAction Command="{Binding RedirectToRecieptCommand}"/>
+        </b:EventTrigger>
+    </b:Interaction.Triggers>
+
     <Grid>
-        <TextBlock Text="En attente de confirmation..." 
+        <TextBlock Text="{Binding LoadingMessage}" 
                    FontSize="36" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 

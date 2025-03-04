@@ -45,34 +45,76 @@ namespace Paiement_1830974.ViewModels
 
         private async Task<double> CalculateTicketPrice()
         {
-            IEnumerable<Prices> activePrices = await ApiHelper.GetPricesForTicket(_ticket, _apiKey);
+            var activePrices = await GetActivePrices();
+            var priceRates = ExtractPriceRates(activePrices);
+            var duration = DateTime.Now - _ticket.ArrivalTime;
 
+            var (totalPrice, revenueType) = CalculateTotalPrice(duration, priceRates);
+
+            UpdateRevenueTypeHolder(totalPrice, revenueType);
+
+            return totalPrice;
+        }
+
+        private async Task<IEnumerable<Prices>> GetActivePrices()
+        {
+            var activePrices = await ApiHelper.GetPricesForTicket(_ticket, _apiKey);
             if (activePrices == null || !activePrices.Any())
             {
                 throw new InvalidOperationException("No active prices found for the ticket.");
             }
+            return activePrices;
+        }
 
-            var dailyPrice = activePrices.FirstOrDefault(p => p.PriceName == "Journée complète")?.Price ?? double.MaxValue;
-            var halfDayPrice = activePrices.FirstOrDefault(p => p.PriceName == "Demi-journée")?.Price ?? double.MaxValue;
-            var hourlyPrice = activePrices.FirstOrDefault(p => p.PriceName == "Horraire")?.Price ?? double.MaxValue;
+        private (double Daily, double HalfDay, double Hourly) ExtractPriceRates(IEnumerable<Prices> activePrices)
+        {
+            return (
+                Daily: activePrices.FirstOrDefault(p => p.PriceName == "Journée complète")?.Price ?? double.MaxValue,
+                HalfDay: activePrices.FirstOrDefault(p => p.PriceName == "Demi-journée")?.Price ?? double.MaxValue,
+                Hourly: activePrices.FirstOrDefault(p => p.PriceName == "Horraire")?.Price ?? double.MaxValue
+            );
+        }
 
+        private (double TotalPrice, string RevenueType) CalculateTotalPrice(TimeSpan duration, (double Daily, double HalfDay, double Hourly) rates)
+        {
             double totalPrice = 0;
-            TimeSpan duration = DateTime.Now - _ticket.ArrivalTime;
+            string revenueType = "";
+            bool halfDayApplied = false;
 
             int fullDays = (int)duration.TotalDays;
-            totalPrice += fullDays * dailyPrice;
+            totalPrice += fullDays * rates.Daily;
             duration -= TimeSpan.FromDays(fullDays);
 
-            if (duration.TotalHours > 12 || (duration.TotalHours > 0 && halfDayPrice < hourlyPrice * duration.TotalHours))
+            if (fullDays > 1)
+                revenueType = "FullDay";
+
+            if (ShouldApplyHalfDay(duration, rates.HalfDay, rates.Hourly))
             {
-                totalPrice += halfDayPrice;
+                totalPrice += rates.HalfDay;
                 duration -= TimeSpan.FromHours(12);
+                if (fullDays == 0) revenueType = "HalfDay";
+                halfDayApplied = true;
             }
 
             if (duration > TimeSpan.Zero)
-                totalPrice += Math.Ceiling(duration.TotalHours) * hourlyPrice;
+            {
+                totalPrice += Math.Ceiling(duration.TotalHours) * rates.Hourly;
+                if (!halfDayApplied) revenueType = "Hourly";
+            }
 
-            return totalPrice;
+            return (totalPrice, revenueType);
+        }
+
+        private bool ShouldApplyHalfDay(TimeSpan duration, double halfDayRate, double hourlyRate)
+        {
+            return duration.TotalHours > 12 || (duration.TotalHours > 0 && halfDayRate < hourlyRate * duration.TotalHours);
+        }
+
+        private void UpdateRevenueTypeHolder(double totalPrice, string revenueType)
+        {
+            RevenueTypeHolder.Monday = RevenueTypeHolder.getLastMonday();
+            RevenueTypeHolder.Amount = totalPrice;
+            RevenueTypeHolder.RevenueType = revenueType;
         }
     }
 }

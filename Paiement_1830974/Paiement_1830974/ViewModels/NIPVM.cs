@@ -16,33 +16,38 @@ namespace Paiement_1830974.ViewModels
     {
         private readonly string _apiKey;
         private readonly INavigationService _navigationService;
-        [ObservableProperty]
-        private int _nip;
+        [ObservableProperty] private int _nip;
+        [ObservableProperty] private string _errorMessage;
+        [ObservableProperty] private bool _showError;
 
         public NIPVM(IConfiguration configuration, INavigationService navigationService)
         {
             _apiKey = configuration["ApiKey"];
             _navigationService = navigationService;
-        }
-
-        partial void OnNipChanged(int value)
-        {
-            Console.WriteLine($"NIP changed to: {value}");
-            CommandManager.InvalidateRequerySuggested();
+            ErrorMessage = "NIP Invalide";
         }
 
         [RelayCommand]
         private void Confirm()
         {
-            if (CanConfirm())
-                Debug.WriteLine($"Confirmation button clicked with NIP: {Nip}");
+            if (IsAccepted())
+            {
+                ShowError = false;
+                Debug.WriteLine($"Do Something");
+                _navigationService.NavigateTo<BankConfirmVM>();
+            }
             else
-                Debug.WriteLine("Bad NIP Length");
+            {
+                ShowError = true;
+                ErrorMessage = "NIP Invalide";
+                Debug.WriteLine("Do something else");
+            }
         }
 
         private bool CanConfirm()
-        {
-            return Nip >= 1000 && Nip <= 9999;
-        }
+            => Nip >= 1000 && Nip <= 9999;
+
+        private bool IsAccepted()
+            => CanConfirm() && Nip == 9999;
     }
 }

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API_CIUSSS_1830974.Migrations
 {
     [DbContext(typeof(CiusssContext))]
-    [Migration("20250224130900_Migration school")]
-    partial class Migrationschool
+    [Migration("20250304172220_Added RevenueByType for summaries")]
+    partial class AddedRevenueByTypeforsummaries
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -124,6 +124,29 @@ namespace API_CIUSSS_1830974.Migrations
                     b.HasIndex("TicketId");
 
                     b.ToTable("Reciepts");
+                });
+
+            modelBuilder.Entity("API_CIUSSS_1830974.Models.RevenueByType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<double>("FullDay")
+                        .HasColumnType("double");
+
+                    b.Property<double>("HalfDay")
+                        .HasColumnType("double");
+
+                    b.Property<double>("Hourly")
+                        .HasColumnType("double");
+
+                    b.Property<DateTime>("Week")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RevenueByTypes");
                 });
 
             modelBuilder.Entity("API_CIUSSS_1830974.Models.Ticket", b =>

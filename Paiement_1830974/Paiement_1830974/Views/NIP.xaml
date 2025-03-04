@@ -9,12 +9,35 @@
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="1024">
 
-    <Grid Background="#E3F2FD">
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
-            <TextBlock Text="Entrer votre NIP" FontSize="48" Margin="0,0,0,60" 
-                       HorizontalAlignment="Center" Foreground="#1976D2"/>
+    <Page.Resources>
+        <BooleanToVisibilityConverter x:Key="VisibilityConverter"/>
+    </Page.Resources>
 
-            <PasswordBox x:Name="PinPasswordBox"
+    <Grid Background="#E3F2FD">
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" 
+                       Text="Entrer votre NIP" 
+                       FontSize="48" 
+                       Margin="0,0,0,60"
+                       HorizontalAlignment="Center" 
+                       Foreground="#1976D2"/>
+
+            <TextBlock Grid.Row="1" 
+                       Text="{Binding ErrorMessage}"
+                       Foreground="Red"
+                       Visibility="{Binding ShowError, Converter={StaticResource VisibilityConverter}}"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"/>
+
+            <PasswordBox Grid.Row="2"
+                         x:Name="PinPasswordBox"
                          resources:PasswordHelper.BoundNip="{Binding Nip, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                          Style="{StaticResource MaterialDesignFilledPasswordBox}"
                          PasswordChar="●"
@@ -26,14 +49,16 @@
                          MaxLength="4"
                          Loaded="PinPasswordBox_Loaded"/>
 
-            <Button Content="Confirmer" 
+            <Button Grid.Row="3" 
+                    Content="Confirmer" 
                     Style="{StaticResource MaterialDesignRaisedButton}"
-                    Height="80" Width="250" 
+                    Height="80" 
+                    Width="250" 
                     FontSize="28" 
                     Background="#1976D2" 
                     Foreground="White"
                     Padding="15"
                     Command="{Binding ConfirmCommand}"/>
-        </StackPanel>
+        </Grid>
     </Grid>
 </Page>
