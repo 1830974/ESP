@@ -49,6 +49,9 @@ namespace Paiement_1830974.ViewModels
             if (result == null)
                 return;
 
+            //Generate receipt in DB
+            await GenerateReceipt();
+
             switch (RevenueTypeHolder.RevenueType)
             {
                 case "Hourly":
@@ -105,6 +108,22 @@ namespace Paiement_1830974.ViewModels
             {
                 return revenueByType;
             }
+        }
+
+        private async Task GenerateReceipt()
+        {
+            Reciept receipt = new Reciept()
+            {
+                Id = 0,
+                TicketId = TicketHolder.CurrentTicket.Id,
+                StayTime = TicketHolder.StayTime,
+                Total = PaymentHolder.TotalAmount,
+                TPS = PaymentHolder.TPS,
+                TVQ = PaymentHolder.TVQ,
+            };
+
+            _context.Reciepts.Add(receipt);
+            await _context.SaveChangesAsync();
         }
     }
 }

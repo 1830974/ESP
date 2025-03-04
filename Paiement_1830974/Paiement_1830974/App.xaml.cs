@@ -48,6 +48,7 @@ namespace Paiement_1830974
 
             services.AddTransient<AmmountVM>(provider =>
             new AmmountVM(
+                provider.GetRequiredService<CiusssContext>(),
                 provider.GetRequiredService<IConfiguration>(),
                 provider.GetRequiredService<INavigationService>())
             );
@@ -71,9 +72,15 @@ namespace Paiement_1830974
                 provider.GetRequiredService<INavigationService>())
             );
 
+            services.AddTransient<Ammount>(provider => 
+            new Ammount(
+                provider.GetRequiredService<CiusssContext>(),
+                provider.GetRequiredService<IConfiguration>(),
+                provider.GetRequiredService<INavigationService>()
+            ));
+
             services.AddTransient<Home>();
             services.AddTransient<Accueil>();
-            services.AddTransient<Ammount>();
             services.AddTransient<NIP>();
             services.AddTransient<BankConfirm>();
             services.AddTransient<Reciept>();

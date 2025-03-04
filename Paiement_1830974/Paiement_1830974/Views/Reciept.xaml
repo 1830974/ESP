@@ -30,14 +30,16 @@
                         FontSize="24" 
                         Margin="0,0,20,0"
                         Background="Green" 
-                        Foreground="White"/>
+                        Foreground="White"
+                        Command="{Binding PrintReceiptCommand}"/>
 
                 <Button Content="Non" 
                         Style="{StaticResource MaterialDesignRaisedButton}"
                         Height="80" Width="200" 
                         FontSize="24" 
                         Background="Red" 
-                        Foreground="White"/>
+                        Foreground="White"
+                        Command="{Binding RedirectHomeCommand}"/>
             </StackPanel>
         </StackPanel>
     </Grid>
