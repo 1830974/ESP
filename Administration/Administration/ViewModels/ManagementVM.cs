@@ -18,26 +18,14 @@ namespace Administration.ViewModels
 {
     public partial class ManagementVM : ObservableObject
     {
-        [ObservableProperty]
-        private ObservableCollection<User> users;
+        [ObservableProperty] private ObservableCollection<User> users;
+        [ObservableProperty] private ObservableCollection<Ticket> tickets;
 
-        [ObservableProperty]
-        private ObservableCollection<Ticket> tickets;
-
-        [ObservableProperty]
-        private double hourlyRate;
-
-        [ObservableProperty]
-        private double halfDayRate;
-
-        [ObservableProperty]
-        private double fullDayRate;
-
-        [ObservableProperty]
-        private double provincialTaxRate;
-
-        [ObservableProperty]
-        private double federalTaxRate;
+        [ObservableProperty] private double hourlyRate;
+        [ObservableProperty] private double halfDayRate;
+        [ObservableProperty] private double fullDayRate;
+        [ObservableProperty] private double provincialTaxRate;
+        [ObservableProperty] private double federalTaxRate;
 
         private readonly CiusssContext _context;
 

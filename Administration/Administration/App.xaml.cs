@@ -52,6 +52,7 @@ namespace Administration
             services.AddTransient<ManagementPage>();
             services.AddTransient<ManagementVM>();
             services.AddTransient<ReportPage>();
+            services.AddTransient<ReportVM>();
 
             ServiceProvider = services.BuildServiceProvider();
 

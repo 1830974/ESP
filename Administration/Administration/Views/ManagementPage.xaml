@@ -110,7 +110,7 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBox Text="{Binding ProvincialTaxRate, StringFormat=P2}"
+                                <TextBox Text="{Binding ProvincialTaxRate}"
                                          materialDesign:HintAssist.Hint="{x:Static properties:Strings.EnterProvincialTaxHint}" />
                                 <Button Grid.Column="1" Content="{x:Static properties:Strings.ModifyButton}"
                                          Margin="10 0 0 0"
@@ -123,7 +123,7 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <TextBox Text="{Binding FederalTaxRate, StringFormat=P2}"
+                                <TextBox Text="{Binding FederalTaxRate}"
                                          materialDesign:HintAssist.Hint="{x:Static properties:Strings.EnterFederalTaxHint}" />
                                 <Button Grid.Column="1" Content="{x:Static properties:Strings.ModifyButton}"
                                         Margin="10 0 0 0"

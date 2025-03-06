@@ -38,8 +38,8 @@ namespace Paiement_1830974.Models
                     {
                         ImageData imageData = ImageDataFactory.Create(logoImagePath);
                         Image logo = new Image(imageData);
-                        logo.SetHorizontalAlignment(HorizontalAlignment.CENTER);
-                        logo.ScaleToFit(150, 150);
+                        logo.SetHorizontalAlignment(HorizontalAlignment.LEFT);
+                        logo.ScaleToFit(120, 120);
                         document.Add(logo);
                     }
 

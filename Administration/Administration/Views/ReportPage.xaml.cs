@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Administration.ViewModels;
 
 namespace Administration.Views
 {
@@ -21,9 +22,10 @@ namespace Administration.Views
     /// </summary>
     public partial class ReportPage : Page, ILanguageRefresher
     {
-        public ReportPage()
+        public ReportPage(ReportVM reportVM)
         {
             InitializeComponent();
+            this.DataContext = reportVM;
         }
 
         public async Task RefreshLanguage()

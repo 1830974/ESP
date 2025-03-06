@@ -65,7 +65,7 @@ namespace Administration.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Administration;V1.0.0.0;component/views/createuser.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Administration;component/views/createuser.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\CreateUser.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
