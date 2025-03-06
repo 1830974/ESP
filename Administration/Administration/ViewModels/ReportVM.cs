@@ -1,10 +1,14 @@
-﻿using Administration.Data.Context;
+﻿using Administration.Data;
+using Administration.Data.Context;
 using Administration.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,14 +23,28 @@ namespace Administration.ViewModels
         [ObservableProperty] private DateTime? debugReportEndDate;
         [ObservableProperty] private DateTime? logReportStartDate;
         [ObservableProperty] private DateTime? logReportEndDate;
-        [ObservableProperty] private string logEntryType;
-        //[ObservableProperty] private ObservableCollection<BlockedRequest> blockedRequests;
+        [ObservableProperty] private string? logEntryType;
+        [ObservableProperty] private ObservableCollection<string> logEntryTypes;
 
         private readonly CiusssContext _context;
+        private readonly string _apiKey;
 
-        public ReportVM(CiusssContext context)
+        public ReportVM(CiusssContext context, IConfiguration configuration)
         {
             _context = context;
+            _apiKey = configuration["ApiKey"];
+
+            LogEntryTypes = new ObservableCollection<string>
+            {
+                "entry",
+                "prices",
+                "usercreate",
+                "userupdate",
+                "userdelete",
+                "ticketdelete",
+                "payment",
+                "login"
+            };
         }
 
         [RelayCommand]
@@ -42,9 +60,6 @@ namespace Administration.ViewModels
                 .Include(r => r.Ticket)
                 .Where(r => r.Ticket.PaymentTime >= startDate && r.Ticket.PaymentTime <= endDate)
                 .ToListAsync();
-
-            if (!receiptsInDateRange.Any())
-                return "No reciept found in the specified dates";
 
             List<Reciept> hourlyReceipts = new List<Reciept>();
             List<Reciept> halfDayReceipts = new List<Reciept>();
@@ -89,6 +104,58 @@ namespace Administration.ViewModels
             return "Report successfully generated";
         }
 
+        [RelayCommand]
+        private async Task<string?> GenerateDebugReport()
+        {
+            if (!DebugReportStartDate.HasValue || !DebugReportEndDate.HasValue)
+                return "No date selected";
+
+            DateTime startDate = DebugReportStartDate.Value.Date;
+            DateTime endDate = DebugReportEndDate.Value.Date.AddDays(1).AddSeconds(-1); // Include the end date until 23:59:59
+
+            List<Reciept> receiptsInDateRange = await _context.Reciepts
+                .Include(r => r.Ticket)
+                .Where(r => r.Ticket.ArrivalTime >= startDate && r.Ticket.ArrivalTime <= endDate)
+                .ToListAsync();
+
+            List<Ticket> ticketsInDateRange = await _context.Tickets
+                .Where(t => t.ArrivalTime >= startDate && t.ArrivalTime <= endDate)
+                .Where(t => t.State == "Non-payé")
+                .ToListAsync();
+
+            DebugReport report = new DebugReport()
+            {
+                StartDate = startDate,
+                EndDate = endDate,
+                Receipts = receiptsInDateRange,
+                UnpaidTickets = ticketsInDateRange
+            };
+
+            DebugReportPDFGenerator.GeneratePDF(report);
+            return "Debug report successfully generated";
+        }
+
+        [RelayCommand]
+        private async Task<string?> GenerateLogReport()
+        {
+            if (!LogReportStartDate.HasValue || !LogReportEndDate.HasValue || string.IsNullOrEmpty(LogEntryType))
+                return "Please select start date, end date, and log entry type";
+
+            try
+            {
+                var logs = await ApiHelper.GetLogs(_apiKey, LogEntryType, LogReportStartDate.Value, LogReportEndDate.Value);
+
+                string pdfPath = LogsPDFGenerator.GenerateLogPDF(logs, LogEntryType, LogReportStartDate.Value, LogReportEndDate.Value);
+
+                return $"Log report successfully generated: {pdfPath}";
+            }
+            catch (Exception ex)
+            {
+                return $"Error generating log report: {ex.Message}";
+            }
+        }
+
+
         public class RevenueReport
         {
             public DateTime StartDate { get; set; }
@@ -103,6 +170,14 @@ namespace Administration.ViewModels
             public double TotalTPS { get; set; }
             public double TotalTVQ { get; set; }
             public string ErrorMessage { get; set; }
+        }
+
+        public class DebugReport
+        {
+            public DateTime StartDate { get; set; }
+            public DateTime EndDate { get; set; }
+            public List<Reciept>? Receipts { get; set; }
+            public List<Ticket>? UnpaidTickets { get; set; }
         }
     }
 }

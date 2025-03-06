@@ -28,5 +28,19 @@ namespace Administration.Data
             var content = await response.Content.ReadAsStringAsync();
             return JsonConvert.DeserializeObject<Parking>(content);
         }
+
+        public static async Task<IEnumerable<Logs>> GetLogs(string apiKey, string logType, DateTime start, DateTime end)
+        {
+            string url = $"{ApiBaseUrl}/Logs/{logType}?start={start}&end={end}";
+
+            _httpClient.DefaultRequestHeaders.Clear();
+            _httpClient.DefaultRequestHeaders.Add("X-API-Key", apiKey);
+
+            var response = await _httpClient.GetAsync(url);
+
+            response.EnsureSuccessStatusCode();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<IEnumerable<Logs>>(content);
+        }
     }
 }

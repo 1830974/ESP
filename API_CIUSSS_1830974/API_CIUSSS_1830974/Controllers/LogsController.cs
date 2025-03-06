@@ -71,7 +71,6 @@ namespace API_CIUSSS_1830974.Controllers
             return logType.ToLower() switch
             {
                 "entry" => "Borne d'entrée",
-                "exit" => "Borne de sortie",
                 "prices" => "Tarifs",
                 "usercreate" => "Création d'utilisateur",
                 "userupdate" => "Modification d'utilisateur",
@@ -79,7 +78,7 @@ namespace API_CIUSSS_1830974.Controllers
                 "ticketdelete" => "Suppression de billet",
                 "payment" => "Borne de paiement",
                 "reciept" => "Impression de reçu",
-                "Login" => "Login",
+                "login" => "Login",
                 _ => string.Empty
             };
         }

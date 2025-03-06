@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CCHIC\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj": {}
+    "C:\\CCHIC\\ESP\\Updated_Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj": {}
   },
   "projects": {
-    "C:\\CCHIC\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj": {
+    "C:\\CCHIC\\ESP\\Updated_Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CCHIC\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj",
+        "projectUniqueName": "C:\\CCHIC\\ESP\\Updated_Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj",
         "projectName": "API_CIUSSS_1830974",
-        "projectPath": "C:\\CCHIC\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj",
+        "projectPath": "C:\\CCHIC\\ESP\\Updated_Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\API_CIUSSS_1830974.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\CCHIC\\ESP\\Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\obj\\",
+        "outputPath": "C:\\CCHIC\\ESP\\Updated_Git\\API_CIUSSS_1830974\\API_CIUSSS_1830974\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",

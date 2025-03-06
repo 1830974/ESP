@@ -1,46 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\CCHIC\\ESP\\Git\\Administration\\",
+  "WorkspaceRootPath": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\administration.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\administration.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\models\\logspdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\logspdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\models\\revenuereportpdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\models\\debugreportpdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\debugreportpdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\models\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\logs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\models\\revenuereportpdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\revenuereportpdfgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\viewmodels\\reportvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\viewmodels\\reportvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\reportvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\reportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\views\\reportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\reportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\views\\reportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\viewmodels\\managementvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\data\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\data\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\data\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\git\\administration\\administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\reciept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|c:\\cchic\\esp\\updated_git\\administration\\administration\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B703A1F5-92B9-464A-B610-8531288BC546}|Administration\\Administration.csproj|solutionrelative:administration\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,97 +58,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 212,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Administration",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Administration.csproj",
-              "RelativeDocumentMoniker": "Administration\\Administration.csproj",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Administration.csproj",
-              "RelativeToolTip": "Administration\\Administration.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-06T18:45:58.354Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogsPDFGenerator.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\LogsPDFGenerator.cs",
+              "RelativeDocumentMoniker": "Administration\\Models\\LogsPDFGenerator.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\LogsPDFGenerator.cs",
+              "RelativeToolTip": "Administration\\Models\\LogsPDFGenerator.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T23:25:20.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logs.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\Logs.cs",
+              "RelativeDocumentMoniker": "Administration\\Models\\Logs.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\Logs.cs",
+              "RelativeToolTip": "Administration\\Models\\Logs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T23:24:20.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DebugReportPDFGenerator.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\DebugReportPDFGenerator.cs",
+              "RelativeDocumentMoniker": "Administration\\Models\\DebugReportPDFGenerator.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\DebugReportPDFGenerator.cs",
+              "RelativeToolTip": "Administration\\Models\\DebugReportPDFGenerator.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T22:48:30.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RevenueReportPDFGenerator.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\RevenueReportPDFGenerator.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\RevenueReportPDFGenerator.cs",
               "RelativeDocumentMoniker": "Administration\\Models\\RevenueReportPDFGenerator.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\RevenueReportPDFGenerator.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\RevenueReportPDFGenerator.cs",
               "RelativeToolTip": "Administration\\Models\\RevenueReportPDFGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAgwIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T18:24:26.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "ReportVM.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\ViewModels\\ReportVM.cs",
+              "RelativeDocumentMoniker": "Administration\\ViewModels\\ReportVM.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\ViewModels\\ReportVM.cs",
+              "RelativeToolTip": "Administration\\ViewModels\\ReportVM.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAEwJIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T18:06:39.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Reciept.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Reciept.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\Reciept.cs",
               "RelativeDocumentMoniker": "Administration\\Models\\Reciept.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Reciept.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\Reciept.cs",
               "RelativeToolTip": "Administration\\Models\\Reciept.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T18:16:12.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Ticket.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\Ticket.cs",
               "RelativeDocumentMoniker": "Administration\\Models\\Ticket.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Models\\Ticket.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Models\\Ticket.cs",
               "RelativeToolTip": "Administration\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T18:16:05.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ApiHelper.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Data\\ApiHelper.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Data\\ApiHelper.cs",
               "RelativeDocumentMoniker": "Administration\\Data\\ApiHelper.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Data\\ApiHelper.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Data\\ApiHelper.cs",
               "RelativeToolTip": "Administration\\Data\\ApiHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T18:09:28.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\App.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\App.xaml.cs",
               "RelativeDocumentMoniker": "Administration\\App.xaml.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\App.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\App.xaml.cs",
               "RelativeToolTip": "Administration\\App.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwDYAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wDYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T18:07:32.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ManagementVM.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
               "RelativeDocumentMoniker": "Administration\\ViewModels\\ManagementVM.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\ViewModels\\ManagementVM.cs",
               "RelativeToolTip": "Administration\\ViewModels\\ManagementVM.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -149,24 +196,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReportVM.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\ReportVM.cs",
-              "RelativeDocumentMoniker": "Administration\\ViewModels\\ReportVM.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\ViewModels\\ReportVM.cs",
-              "RelativeToolTip": "Administration\\ViewModels\\ReportVM.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAMwFcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T18:06:39.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ReportPage.xaml",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ReportPage.xaml",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Views\\ReportPage.xaml",
               "RelativeDocumentMoniker": "Administration\\Views\\ReportPage.xaml",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ReportPage.xaml",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Views\\ReportPage.xaml",
               "RelativeToolTip": "Administration\\Views\\ReportPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-06T18:06:39.017Z",
@@ -174,11 +208,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ReportPage.xaml.cs",
-              "DocumentMoniker": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ReportPage.xaml.cs",
+              "DocumentMoniker": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Views\\ReportPage.xaml.cs",
               "RelativeDocumentMoniker": "Administration\\Views\\ReportPage.xaml.cs",
-              "ToolTip": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Views\\ReportPage.xaml.cs",
+              "ToolTip": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Views\\ReportPage.xaml.cs",
               "RelativeToolTip": "Administration\\Views\\ReportPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

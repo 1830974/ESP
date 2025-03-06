@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Administration.csproj": {}
+    "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Administration.csproj": {}
   },
   "projects": {
-    "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Administration.csproj": {
+    "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Administration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Administration.csproj",
+        "projectUniqueName": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Administration.csproj",
         "projectName": "Administration",
-        "projectPath": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\Administration.csproj",
+        "projectPath": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\Administration.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\CCHIC\\ESP\\Git\\Administration\\Administration\\obj\\",
+        "outputPath": "C:\\CCHIC\\ESP\\Updated_Git\\Administration\\Administration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
